@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCD9FF8E29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */; };
+		FCD9FF9029C13C9A005A9900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FF8F29C13C9A005A9900 /* ContentView.swift */; };
+		FCD9FF9229C13C9B005A9900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD9FF9129C13C9B005A9900 /* Assets.xcassets */; };
+		FCD9FF9529C13C9B005A9900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD9FF9429C13C9B005A9900 /* Preview Assets.xcassets */; };
+		FCD9FF9F29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FF9E29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift */; };
+		FCD9FFA929C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FFA829C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift */; };
+		FCD9FFAB29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FFAA29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift */; };
+		FCD9FFB929C13CDD005A9900 /* LDSwiftEventSource in Frameworks */ = {isa = PBXBuildFile; productRef = FCD9FFB829C13CDD005A9900 /* LDSwiftEventSource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCD9FF9B29C13C9B005A9900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD9FF8229C13C9A005A9900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD9FF8929C13C9A005A9900;
+			remoteInfo = "USA Climbing Scoring";
+		};
+		FCD9FFA529C13C9B005A9900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCD9FF8229C13C9A005A9900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCD9FF8929C13C9A005A9900;
+			remoteInfo = "USA Climbing Scoring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCD9FF8A29C13C9A005A9900 /* USA Climbing Scoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USA Climbing Scoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringApp.swift; sourceTree = "<group>"; };
+		FCD9FF8F29C13C9A005A9900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCD9FF9129C13C9B005A9900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCD9FF9429C13C9B005A9900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCD9FF9A29C13C9B005A9900 /* USA Climbing ScoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USA Climbing ScoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD9FF9E29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringTests.swift; sourceTree = "<group>"; };
+		FCD9FFA429C13C9B005A9900 /* USA Climbing ScoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USA Climbing ScoringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD9FFA829C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringUITests.swift; sourceTree = "<group>"; };
+		FCD9FFAA29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCD9FF8729C13C9A005A9900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9FFB929C13CDD005A9900 /* LDSwiftEventSource in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9FF9729C13C9B005A9900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9FFA129C13C9B005A9900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCD9FF8129C13C9A005A9900 = {
+			isa = PBXGroup;
+			children = (
+				FCD9FF8C29C13C9A005A9900 /* USA Climbing Scoring */,
+				FCD9FF9D29C13C9B005A9900 /* USA Climbing ScoringTests */,
+				FCD9FFA729C13C9B005A9900 /* USA Climbing ScoringUITests */,
+				FCD9FF8B29C13C9A005A9900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCD9FF8B29C13C9A005A9900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9FF8A29C13C9A005A9900 /* USA Climbing Scoring.app */,
+				FCD9FF9A29C13C9B005A9900 /* USA Climbing ScoringTests.xctest */,
+				FCD9FFA429C13C9B005A9900 /* USA Climbing ScoringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCD9FF8C29C13C9A005A9900 /* USA Climbing Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */,
+				FCD9FF8F29C13C9A005A9900 /* ContentView.swift */,
+				FCD9FF9129C13C9B005A9900 /* Assets.xcassets */,
+				FCD9FF9329C13C9B005A9900 /* Preview Content */,
+			);
+			path = "USA Climbing Scoring";
+			sourceTree = "<group>";
+		};
+		FCD9FF9329C13C9B005A9900 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9FF9429C13C9B005A9900 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCD9FF9D29C13C9B005A9900 /* USA Climbing ScoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9FF9E29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift */,
+			);
+			path = "USA Climbing ScoringTests";
+			sourceTree = "<group>";
+		};
+		FCD9FFA729C13C9B005A9900 /* USA Climbing ScoringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCD9FFA829C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift */,
+				FCD9FFAA29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift */,
+			);
+			path = "USA Climbing ScoringUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCD9FF8929C13C9A005A9900 /* USA Climbing Scoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD9FFAE29C13C9B005A9900 /* Build configuration list for PBXNativeTarget "USA Climbing Scoring" */;
+			buildPhases = (
+				FCD9FF8629C13C9A005A9900 /* Sources */,
+				FCD9FF8729C13C9A005A9900 /* Frameworks */,
+				FCD9FF8829C13C9A005A9900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USA Climbing Scoring";
+			packageProductDependencies = (
+				FCD9FFB829C13CDD005A9900 /* LDSwiftEventSource */,
+			);
+			productName = "USA Climbing Scoring";
+			productReference = FCD9FF8A29C13C9A005A9900 /* USA Climbing Scoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCD9FF9929C13C9B005A9900 /* USA Climbing ScoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD9FFB129C13C9B005A9900 /* Build configuration list for PBXNativeTarget "USA Climbing ScoringTests" */;
+			buildPhases = (
+				FCD9FF9629C13C9B005A9900 /* Sources */,
+				FCD9FF9729C13C9B005A9900 /* Frameworks */,
+				FCD9FF9829C13C9B005A9900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD9FF9C29C13C9B005A9900 /* PBXTargetDependency */,
+			);
+			name = "USA Climbing ScoringTests";
+			productName = "USA Climbing ScoringTests";
+			productReference = FCD9FF9A29C13C9B005A9900 /* USA Climbing ScoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCD9FFA329C13C9B005A9900 /* USA Climbing ScoringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCD9FFB429C13C9B005A9900 /* Build configuration list for PBXNativeTarget "USA Climbing ScoringUITests" */;
+			buildPhases = (
+				FCD9FFA029C13C9B005A9900 /* Sources */,
+				FCD9FFA129C13C9B005A9900 /* Frameworks */,
+				FCD9FFA229C13C9B005A9900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCD9FFA629C13C9B005A9900 /* PBXTargetDependency */,
+			);
+			name = "USA Climbing ScoringUITests";
+			productName = "USA Climbing ScoringUITests";
+			productReference = FCD9FFA429C13C9B005A9900 /* USA Climbing ScoringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCD9FF8229C13C9A005A9900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FCD9FF8929C13C9A005A9900 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FCD9FF9929C13C9B005A9900 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FCD9FF8929C13C9A005A9900;
+					};
+					FCD9FFA329C13C9B005A9900 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FCD9FF8929C13C9A005A9900;
+					};
+				};
+			};
+			buildConfigurationList = FCD9FF8529C13C9A005A9900 /* Build configuration list for PBXProject "USA Climbing Scoring" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCD9FF8129C13C9A005A9900;
+			packageReferences = (
+				FCD9FFB729C13CDD005A9900 /* XCRemoteSwiftPackageReference "swift-eventsource" */,
+			);
+			productRefGroup = FCD9FF8B29C13C9A005A9900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCD9FF8929C13C9A005A9900 /* USA Climbing Scoring */,
+				FCD9FF9929C13C9B005A9900 /* USA Climbing ScoringTests */,
+				FCD9FFA329C13C9B005A9900 /* USA Climbing ScoringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCD9FF8829C13C9A005A9900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9FF9529C13C9B005A9900 /* Preview Assets.xcassets in Resources */,
+				FCD9FF9229C13C9B005A9900 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9FF9829C13C9B005A9900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9FFA229C13C9B005A9900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCD9FF8629C13C9A005A9900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9FF9029C13C9A005A9900 /* ContentView.swift in Sources */,
+				FCD9FF8E29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9FF9629C13C9B005A9900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9FF9F29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD9FFA029C13C9B005A9900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9FFA929C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift in Sources */,
+				FCD9FFAB29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCD9FF9C29C13C9B005A9900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD9FF8929C13C9A005A9900 /* USA Climbing Scoring */;
+			targetProxy = FCD9FF9B29C13C9B005A9900 /* PBXContainerItemProxy */;
+		};
+		FCD9FFA629C13C9B005A9900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCD9FF8929C13C9A005A9900 /* USA Climbing Scoring */;
+			targetProxy = FCD9FFA529C13C9B005A9900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCD9FFAC29C13C9B005A9900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCD9FFAD29C13C9B005A9900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCD9FFAF29C13C9B005A9900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"USA Climbing Scoring/Preview Content\"";
+				DEVELOPMENT_TEAM = E8YCTQ5XB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "USAC Results";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dispatchonce.USA-Climbing-Scoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCD9FFB029C13C9B005A9900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"USA Climbing Scoring/Preview Content\"";
+				DEVELOPMENT_TEAM = E8YCTQ5XB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "USAC Results";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dispatchonce.USA-Climbing-Scoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCD9FFB229C13C9B005A9900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8YCTQ5XB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dispatchonce.USA-Climbing-ScoringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USA Climbing Scoring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/USA Climbing Scoring";
+			};
+			name = Debug;
+		};
+		FCD9FFB329C13C9B005A9900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8YCTQ5XB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dispatchonce.USA-Climbing-ScoringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/USA Climbing Scoring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/USA Climbing Scoring";
+			};
+			name = Release;
+		};
+		FCD9FFB529C13C9B005A9900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8YCTQ5XB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dispatchonce.USA-Climbing-ScoringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "USA Climbing Scoring";
+			};
+			name = Debug;
+		};
+		FCD9FFB629C13C9B005A9900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E8YCTQ5XB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dispatchonce.USA-Climbing-ScoringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "USA Climbing Scoring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCD9FF8529C13C9A005A9900 /* Build configuration list for PBXProject "USA Climbing Scoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD9FFAC29C13C9B005A9900 /* Debug */,
+				FCD9FFAD29C13C9B005A9900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD9FFAE29C13C9B005A9900 /* Build configuration list for PBXNativeTarget "USA Climbing Scoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD9FFAF29C13C9B005A9900 /* Debug */,
+				FCD9FFB029C13C9B005A9900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD9FFB129C13C9B005A9900 /* Build configuration list for PBXNativeTarget "USA Climbing ScoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD9FFB229C13C9B005A9900 /* Debug */,
+				FCD9FFB329C13C9B005A9900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCD9FFB429C13C9B005A9900 /* Build configuration list for PBXNativeTarget "USA Climbing ScoringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCD9FFB529C13C9B005A9900 /* Debug */,
+				FCD9FFB629C13C9B005A9900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCD9FFB729C13CDD005A9900 /* XCRemoteSwiftPackageReference "swift-eventsource" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LaunchDarkly/swift-eventsource.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCD9FFB829C13CDD005A9900 /* LDSwiftEventSource */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCD9FFB729C13CDD005A9900 /* XCRemoteSwiftPackageReference "swift-eventsource" */;
+			productName = LDSwiftEventSource;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FCD9FF8229C13C9A005A9900 /* Project object */;
+}
