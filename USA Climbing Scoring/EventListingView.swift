@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EventListingView: View {
-    var viewModel = EventListingViewModel()
+    @ObservedObject var viewModel = EventListingViewModel()
     
     var body: some View {
         NavigationStack {

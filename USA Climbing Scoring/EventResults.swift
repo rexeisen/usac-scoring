@@ -9,12 +9,23 @@ import SwiftUI
 
 struct EventResults: View {
     var event: EventListing
+    var viewModel: ResultsViewModel
+    
+    init(event: EventListing) {
+        self.event = event
+        self.viewModel = ResultsViewModel(event: event)
+    }
     
     var body: some View {
         ScrollView {
             LazyVStack {
-                Text("Hello")
+                ForEach(self.viewModel.routeCards, id: \.self) { routeCard in
+                    Text("\(routeCard.climberId)")
+                }
             }
+        }
+        .task {
+            self.viewModel.fetchResults()
         }
         .navigationTitle(event.name)
     }
