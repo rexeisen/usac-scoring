@@ -11,7 +11,7 @@ import SwiftUI
 struct USA_Climbing_ScoringApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EventListingView()
         }
     }
 }

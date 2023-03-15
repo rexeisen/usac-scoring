@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC3C556629C1495F000EF32E /* EventListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C556529C1495F000EF32E /* EventListingView.swift */; };
+		FC3C556929C149CC000EF32E /* EventListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C556829C149CC000EF32E /* EventListingViewModel.swift */; };
+		FC3C556C29C14A02000EF32E /* EventListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C556B29C14A02000EF32E /* EventListing.swift */; };
+		FC3C556E29C14A68000EF32E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C556D29C14A68000EF32E /* Category.swift */; };
+		FC3C557029C14CFC000EF32E /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C556F29C14CFC000EF32E /* Region.swift */; };
+		FC3C557229C14E02000EF32E /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3C557129C14E02000EF32E /* Division.swift */; };
 		FCD9FF8E29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */; };
-		FCD9FF9029C13C9A005A9900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FF8F29C13C9A005A9900 /* ContentView.swift */; };
 		FCD9FF9229C13C9B005A9900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD9FF9129C13C9B005A9900 /* Assets.xcassets */; };
 		FCD9FF9529C13C9B005A9900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD9FF9429C13C9B005A9900 /* Preview Assets.xcassets */; };
 		FCD9FF9F29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FF9E29C13C9B005A9900 /* USA_Climbing_ScoringTests.swift */; };
@@ -35,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC3C556529C1495F000EF32E /* EventListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListingView.swift; sourceTree = "<group>"; };
+		FC3C556829C149CC000EF32E /* EventListingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListingViewModel.swift; sourceTree = "<group>"; };
+		FC3C556B29C14A02000EF32E /* EventListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListing.swift; sourceTree = "<group>"; };
+		FC3C556D29C14A68000EF32E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		FC3C556F29C14CFC000EF32E /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		FC3C557129C14E02000EF32E /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		FCD9FF8A29C13C9A005A9900 /* USA Climbing Scoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "USA Climbing Scoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringApp.swift; sourceTree = "<group>"; };
-		FCD9FF8F29C13C9A005A9900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCD9FF9129C13C9B005A9900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCD9FF9429C13C9B005A9900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCD9FF9A29C13C9B005A9900 /* USA Climbing ScoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USA Climbing ScoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +83,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC3C556429C13E40000EF32E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FC3C556729C149BA000EF32E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C556A29C149EC000EF32E /* Models */,
+				FC3C556829C149CC000EF32E /* EventListingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC3C556A29C149EC000EF32E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C556B29C14A02000EF32E /* EventListing.swift */,
+				FC3C556D29C14A68000EF32E /* Category.swift */,
+				FC3C556F29C14CFC000EF32E /* Region.swift */,
+				FC3C557129C14E02000EF32E /* Division.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FCD9FF8129C13C9A005A9900 = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +133,12 @@
 		FCD9FF8C29C13C9A005A9900 /* USA Climbing Scoring */ = {
 			isa = PBXGroup;
 			children = (
-				FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */,
-				FCD9FF8F29C13C9A005A9900 /* ContentView.swift */,
 				FCD9FF9129C13C9B005A9900 /* Assets.xcassets */,
+				FC3C556529C1495F000EF32E /* EventListingView.swift */,
+				FC3C556429C13E40000EF32E /* Networking */,
 				FCD9FF9329C13C9B005A9900 /* Preview Content */,
+				FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */,
+				FC3C556729C149BA000EF32E /* ViewModels */,
 			);
 			path = "USA Climbing Scoring";
 			sourceTree = "<group>";
@@ -265,7 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD9FF9029C13C9A005A9900 /* ContentView.swift in Sources */,
+				FC3C556629C1495F000EF32E /* EventListingView.swift in Sources */,
+				FC3C556E29C14A68000EF32E /* Category.swift in Sources */,
+				FC3C557229C14E02000EF32E /* Division.swift in Sources */,
+				FC3C556C29C14A02000EF32E /* EventListing.swift in Sources */,
+				FC3C557029C14CFC000EF32E /* Region.swift in Sources */,
+				FC3C556929C149CC000EF32E /* EventListingViewModel.swift in Sources */,
 				FCD9FF8E29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

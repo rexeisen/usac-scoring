@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  EventListingView.swift
 //  USA Climbing Scoring
 //
 //  Created by Jon Rexeisen on 3/14/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct EventListingView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -19,8 +19,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct EventListing_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        EventListingView()
     }
 }
+
