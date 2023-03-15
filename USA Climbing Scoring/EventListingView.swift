@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct EventListingView: View {
+    var viewModel = EventListingViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                Section("Current") {
+                    ForEach(viewModel.currentEvents, id: \.self) { event in
+                        NavigationLink(destination: EventResults(event: event)) {
+                            
+                            Text(event.name)
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Events")
         }
-        .padding()
     }
 }
 
