@@ -9,19 +9,20 @@ import SwiftUI
 
 struct EventResults: View {
     var event: EventListing
-    var viewModel: ResultsViewModel
+    var viewModel: EventResultViewModel
     
     init(event: EventListing) {
         self.event = event
-        self.viewModel = ResultsViewModel(event: event)
+        self.viewModel = EventResultViewModel(event: event)
     }
     
     var body: some View {
         ScrollView {
             LazyVStack {
-                ForEach(self.viewModel.routeCards, id: \.self) { routeCard in
-                    Text("\(routeCard.climberId)")
-                }
+//                ForEach(self.viewModel.routeCards, id: \.self) { routeCard in
+//                    Text("\(routeCard.climberId)")
+//                }
+                Text("Hiya")
             }
         }
         .task {

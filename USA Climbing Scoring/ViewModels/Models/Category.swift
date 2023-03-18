@@ -19,5 +19,5 @@ enum Category: String, Codable, CaseIterable {
     case MYA
     case MYB
     case MYC
-    case MYD
+    case MYD    
 }

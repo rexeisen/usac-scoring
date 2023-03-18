@@ -13,7 +13,7 @@ class EventListingViewModel: ObservableObject {
     init() {
         // Temporary
         self.currentEvents = [
-            EventListing(id: "1188",
+            EventListing(id: "1196",
                          categories: Category.allCases,
                          dateStart: Date(),
                          dateEnd: Date(),

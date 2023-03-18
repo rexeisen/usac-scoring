@@ -37,13 +37,17 @@ struct RouteCard: Codable, Hashable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
-        let rawAttemptString = try container.decode([String].self, forKey: .attempts)
-        var builtAttempts: [Attempt] = []
-        for (index, element) in rawAttemptString.enumerated() {
-            builtAttempts.append(Attempt(score: element, attempt: index + 1))
-        }
         
-        self.attempts = builtAttempts
+        if let rawAttemptString = try? container.decode([String].self, forKey: .attempts) {
+            var builtAttempts: [Attempt] = []
+            for (index, element) in rawAttemptString.enumerated() {
+                builtAttempts.append(Attempt(score: element, attempt: index + 1))
+            }
+            
+            self.attempts = builtAttempts
+        } else {
+            self.attempts = []
+        }
         self.climberId = try container.decode(String.self, forKey: .climberId)
         self.routeId = try container.decode(String.self, forKey: .routeId)
     }
