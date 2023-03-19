@@ -19,7 +19,7 @@ struct RouteCardFinal: Codable {
     let final: [String: [String : RouteCard]]
 }
 
-struct RouteCard: Codable, Hashable {
+struct RouteCard: Codable, Hashable, Comparable {
     private enum CodingKeys: String, CodingKey {
         case attempts
         case climberId = "mid"
@@ -52,10 +52,25 @@ struct RouteCard: Codable, Hashable {
         self.routeId = try container.decode(String.self, forKey: .routeId)
     }
     
-    static func == (lhs: RouteCard, rhs: RouteCard) -> Bool {
-        return lhs.climberId == rhs.climberId && lhs.routeId == rhs.routeId
+    // MARK: Protocol Conformance
+    
+    static func < (lhs: RouteCard, rhs: RouteCard) -> Bool {
+        switch (lhs.bestAttempt, rhs.bestAttempt) {
+        case (.none, .some(_)):
+            return true
+        case (.some(_), .none):
+            return false
+        case (.some(let lhsBest), .some(let rhsBest)):
+            return lhsBest < rhsBest
+        case (.none, .none):
+            return lhs.climberId < rhs.climberId
+        }
     }
     
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(self.climberId)
+        hasher.combine(self.routeId)
+    }
 }
 
 struct Attempt: Codable, Hashable, Comparable {

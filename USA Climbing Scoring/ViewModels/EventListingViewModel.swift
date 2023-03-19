@@ -13,7 +13,17 @@ class EventListingViewModel: ObservableObject {
     init() {
         // Temporary
         self.currentEvents = [
+            EventListing(id: "1193",
+                         categories: Category.allCases,
+                         dateStart: Date(),
+                         dateEnd: Date(),
+                         name: "QE R61 Adventure Rock Milwaukee"),
             EventListing(id: "1196",
+                         categories: Category.allCases,
+                         dateStart: Date(),
+                         dateEnd: Date(),
+                         name: "QE R92 CRG Randolph"),
+            EventListing(id: "1188",
                          categories: Category.allCases,
                          dateStart: Date(),
                          dateEnd: Date(),

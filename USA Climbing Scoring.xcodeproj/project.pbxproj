@@ -28,6 +28,10 @@
 		FCD9FFA929C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FFA829C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift */; };
 		FCD9FFAB29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD9FFAA29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift */; };
 		FCD9FFB929C13CDD005A9900 /* LDSwiftEventSource in Frameworks */ = {isa = PBXBuildFile; productRef = FCD9FFB829C13CDD005A9900 /* LDSwiftEventSource */; };
+		FCDD212729C67CA70056FFDA /* EventRosterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212629C67CA70056FFDA /* EventRosterViewModel.swift */; };
+		FCDD212929C67D130056FFDA /* RosterEventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212829C67D130056FFDA /* RosterEventStore.swift */; };
+		FCDD212C29C67DAB0056FFDA /* EventRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212B29C67DAB0056FFDA /* EventRoster.swift */; };
+		FCDD212E29C67FCD0056FFDA /* Competitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212D29C67FCD0056FFDA /* Competitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		FCD9FFA429C13C9B005A9900 /* USA Climbing ScoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "USA Climbing ScoringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD9FFA829C13C9B005A9900 /* USA_Climbing_ScoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringUITests.swift; sourceTree = "<group>"; };
 		FCD9FFAA29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USA_Climbing_ScoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCDD212629C67CA70056FFDA /* EventRosterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRosterViewModel.swift; sourceTree = "<group>"; };
+		FCDD212829C67D130056FFDA /* RosterEventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterEventStore.swift; sourceTree = "<group>"; };
+		FCDD212B29C67DAB0056FFDA /* EventRoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRoster.swift; sourceTree = "<group>"; };
+		FCDD212D29C67FCD0056FFDA /* Competitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +110,9 @@
 		FC3C556429C13E40000EF32E /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				FC3C557529C153BD000EF32E /* RouteCardEventStore.swift */,
 				FC4271E329C523C20091706B /* ConfigEventStore.swift */,
+				FCDD212829C67D130056FFDA /* RosterEventStore.swift */,
+				FC3C557529C153BD000EF32E /* RouteCardEventStore.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -115,6 +124,7 @@
 				FC3C556829C149CC000EF32E /* EventListingViewModel.swift */,
 				FC3C557729C154AA000EF32E /* RouteCardViewModel.swift */,
 				FC4271E129C523830091706B /* EventConfigViewModel.swift */,
+				FCDD212629C67CA70056FFDA /* EventRosterViewModel.swift */,
 				FC4271E829C54B0A0091706B /* EventResultViewModel.swift */,
 			);
 			path = ViewModels;
@@ -124,11 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				FC4271E529C543F10091706B /* Configuration */,
+				FCDD212A29C67D980056FFDA /* Roster */,
 				FC3C557929C1574E000EF32E /* RouteCard */,
 				FC3C556D29C14A68000EF32E /* Category.swift */,
 				FC3C557129C14E02000EF32E /* Division.swift */,
 				FC3C556B29C14A02000EF32E /* EventListing.swift */,
 				FC3C556F29C14CFC000EF32E /* Region.swift */,
+				FCDD212D29C67FCD0056FFDA /* Competitor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -206,6 +218,14 @@
 				FCD9FFAA29C13C9B005A9900 /* USA_Climbing_ScoringUITestsLaunchTests.swift */,
 			);
 			path = "USA Climbing ScoringUITests";
+			sourceTree = "<group>";
+		};
+		FCDD212A29C67D980056FFDA /* Roster */ = {
+			isa = PBXGroup;
+			children = (
+				FCDD212B29C67DAB0056FFDA /* EventRoster.swift */,
+			);
+			path = Roster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,8 +366,10 @@
 			files = (
 				FC3C556629C1495F000EF32E /* EventListingView.swift in Sources */,
 				FC4271E729C544020091706B /* EventConfiguration.swift in Sources */,
+				FCDD212729C67CA70056FFDA /* EventRosterViewModel.swift in Sources */,
 				FC3C557829C154AA000EF32E /* RouteCardViewModel.swift in Sources */,
 				FC3C557429C151EE000EF32E /* EventResults.swift in Sources */,
+				FCDD212C29C67DAB0056FFDA /* EventRoster.swift in Sources */,
 				FC3C557629C153BD000EF32E /* RouteCardEventStore.swift in Sources */,
 				FC3C556E29C14A68000EF32E /* Category.swift in Sources */,
 				FC3C557229C14E02000EF32E /* Division.swift in Sources */,
@@ -356,7 +378,9 @@
 				FC4271E929C54B0A0091706B /* EventResultViewModel.swift in Sources */,
 				FC3C557029C14CFC000EF32E /* Region.swift in Sources */,
 				FC3C556929C149CC000EF32E /* EventListingViewModel.swift in Sources */,
+				FCDD212929C67D130056FFDA /* RosterEventStore.swift in Sources */,
 				FC4271E229C523830091706B /* EventConfigViewModel.swift in Sources */,
+				FCDD212E29C67FCD0056FFDA /* Competitor.swift in Sources */,
 				FCD9FF8E29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift in Sources */,
 				FC3C557B29C157B4000EF32E /* RouteCard.swift in Sources */,
 			);

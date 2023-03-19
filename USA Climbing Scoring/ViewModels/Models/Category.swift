@@ -8,7 +8,7 @@
 import Foundation
 
 /// Youth Categories
-enum Category: String, Codable, CaseIterable {
+enum Category: String, Codable, Hashable, CaseIterable {
     case FJR
     case FYA
     case FYB
@@ -19,5 +19,5 @@ enum Category: String, Codable, CaseIterable {
     case MYA
     case MYB
     case MYC
-    case MYD    
+    case MYD
 }

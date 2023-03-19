@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EventResults: View {
     var event: EventListing
-    var viewModel: EventResultViewModel
+    @ObservedObject var viewModel: EventResultViewModel
     
     init(event: EventListing) {
         self.event = event
@@ -19,10 +19,13 @@ struct EventResults: View {
     var body: some View {
         ScrollView {
             LazyVStack {
-//                ForEach(self.viewModel.routeCards, id: \.self) { routeCard in
-//                    Text("\(routeCard.climberId)")
-//                }
-                Text("Hiya")
+                ForEach(self.viewModel.rankings, id: \.self) { ranking in
+                    HStack {
+                        Text(ranking.competitor.name)
+                        Spacer()
+                        Text(ranking.score.formatted())
+                    }
+                }
             }
         }
         .task {
