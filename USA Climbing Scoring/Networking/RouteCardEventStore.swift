@@ -30,12 +30,7 @@ class RouteCardEventStore: EventHandler {
             let decoder = JSONDecoder()
             do {
                 let topLevel = try decoder.decode(RouteCardResponse.self, from: data)
-                let routes = topLevel.data.leadtr.final
-                let routeCards = routes.values
-                    .flatMap { competitor in
-                        return competitor.values
-                    }
-                _routePublisher.send(routeCards)
+                _routePublisher.send(topLevel.routeCards)
             } catch {
                 print(error)
             }

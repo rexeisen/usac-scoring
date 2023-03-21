@@ -8,7 +8,32 @@
 import Foundation
 
 struct RouteCardResponse: Codable {
-    let data: RouteCardTopLevel
+    private let data: RouteCardTopLevel?
+    let path: String
+    
+    var routeCards: [RouteCard]
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.path = try container.decode(String.self, forKey: .path)
+        
+        if path.count > 1 {
+            // This is a patch
+            self.data = nil
+            let routeCard = try container.decode(RouteCard.self, forKey: .data)
+            self.routeCards = [routeCard]
+        } else {
+            let routeData = try container.decode(RouteCardTopLevel.self, forKey: .data)
+            self.data = routeData
+            let routes = routeData.leadtr.final
+            let routeCards = routes.values
+                .flatMap { competitor in
+                    return competitor.values
+                }
+            self.routeCards = routeCards
+        }
+        
+    }
 }
 
 struct RouteCardTopLevel: Codable {
