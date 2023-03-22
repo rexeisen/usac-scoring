@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct EventResults: View {
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    
     var event: EventListing
     @ObservedObject var viewModel: EventResultViewModel
     
@@ -17,13 +19,23 @@ struct EventResults: View {
     }
     
     var body: some View {
-        ScrollView {
-            LazyVStack {
-                ForEach(self.viewModel.rankings, id: \.self) { ranking in
-                    HStack {
+        List {
+            ForEach(self.viewModel.rankings, id: \.self) { ranking in
+                
+                if (1...3).contains(self.viewModel.places[ranking.score] ?? 0) {
+                    MedalRow(place: self.viewModel.places[ranking.score] ?? 0, ranking: ranking)
+                } else {
+                    if ranking.competitor.scratch {
                         Text(ranking.competitor.name)
-                        Spacer()
-                        Text(ranking.score.formatted())
+                            .strikethrough()
+                    } else {
+                        HStack {
+                            Text("\(self.viewModel.places[ranking.score] ?? 0)")
+                            Text(ranking.competitor.name)
+                            Spacer()
+                            Text(ranking.score.formatted(.number.precision(.fractionLength(2))))
+                                .monospacedDigit()
+                        }
                     }
                 }
             }
@@ -31,8 +43,38 @@ struct EventResults: View {
         .task {
             self.viewModel.fetchResults()
         }
+        .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(event.name)
     }
+}
+
+struct MedalRow: View {
+    var place: Int
+    var ranking: Ranking
+    
+    var body: some View {
+        HStack {
+            if place == 1 {
+                Image(systemName: "medal")
+                    .symbolVariant(.fill)
+                    .foregroundColor(.yellow)
+            } else if place == 2 {
+                Image(systemName: "medal")
+                    .symbolVariant(.fill)
+                    .foregroundColor(.gray)
+            } else {
+                Image(systemName: "medal")
+                    .symbolVariant(.fill)
+                    .foregroundColor(.brown)
+            }
+            Text(ranking.competitor.name)
+                .fontWeight(.semibold)
+            Spacer()
+            Text(ranking.score.formatted(.number.precision(.fractionLength(2))))
+                .monospacedDigit()
+        }
+    }
+    
 }
 
 struct EventResults_Previews: PreviewProvider {

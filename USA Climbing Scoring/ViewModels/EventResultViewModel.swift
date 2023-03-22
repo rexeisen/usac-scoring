@@ -9,7 +9,11 @@ import Foundation
 import Combine
 
 class EventResultViewModel: ObservableObject {
+    // The raw rankings
     @Published var rankings: [Ranking] = []
+    
+    // What place the competitor is in
+    var places: [Double : Int] = [:]
     
     private let routeCardViewModel: RouteCardViewModel
     private let configurationViewModel: EventConfigViewModel
@@ -149,9 +153,23 @@ class EventResultViewModel: ObservableObject {
                 rankings.update(with: currentRanking)
             }
         }
+
+        let sortedRankings = rankings.sorted()
         
-        self.rankings = rankings.sorted()
-    }    
+        // Gotta hit the overall placement now
+        let groupings = Dictionary(grouping: sortedRankings, by: {$0.score})
+        var totalCompetitorCount: Int = 1
+        var places: [Double : Int] = [:]
+        let sortedUniqueScores = groupings.keys.sorted()
+        for score in sortedUniqueScores {
+            let binnedScoreCount = (groupings[score] ?? []).count
+            places[score] = totalCompetitorCount
+            totalCompetitorCount += binnedScoreCount
+        }
+
+        self.places = places
+        self.rankings = sortedRankings
+    }
 }
 
 struct Ranking: Hashable, Identifiable, Comparable {

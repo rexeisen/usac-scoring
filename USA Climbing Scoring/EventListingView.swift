@@ -22,6 +22,7 @@ struct EventListingView: View {
                     }
                 }
             }
+            .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Events")
         }
     }
