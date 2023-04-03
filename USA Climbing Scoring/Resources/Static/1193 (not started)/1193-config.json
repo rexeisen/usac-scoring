@@ -1,0 +1,610 @@
+{
+  "path" : "/",
+  "data" : {
+  "categories" : [ "FJR", "FYA", "FYB", "FYC", "FYD", "MJR", "MYA", "MYB", "MYC", "MYD" ],
+  "city" : "Milwaukee",
+  "dateEnd" : "2023/03/18",
+  "dateStart" : "2023/03/18",
+  "disciplines" : [ "LeadTR" ],
+  "division" : "",
+  "eid" : "1193",
+  "format" : "Mod Redpoint",
+  "host" : "Adventure Rock Milwaukee",
+  "infoSheet" : "https://docs.google.com/spreadsheets/d/e/2PACX-1vQCRXIUw26diPy9YHwYdxX4LpfqN0tVvujuOqk8Qaoq-4yn0yz5xKK7OjYGEA0kwe2UT8ZEk1LRajNI/pubhtml",
+  "level" : "QE",
+  "name" : "QE R61 Adventure Rock Milwaukee",
+  "region" : "R61",
+  "rounds" : "1",
+  "routes" : {
+    "leadtr" : {
+      "final" : {
+        "catRoutes" : {
+          "FJR" : [ "2", "10", "20", "24" ],
+          "FYA" : [ "2", "10", "20", "24" ],
+          "FYB" : [ "4", "9", "11", "23" ],
+          "FYC" : [ "1", "6", "14", "18" ],
+          "FYD" : [ "3", "5", "15", "22" ],
+          "MJR" : [ "7", "12", "16", "19" ],
+          "MYA" : [ "7", "12", "16", "19" ],
+          "MYB" : [ "8", "13", "17", "21" ],
+          "MYC" : [ "1", "6", "14", "18" ],
+          "MYD" : [ "3", "5", "15", "22" ]
+        },
+        "lanes" : {
+          "L0" : [ "*" ],
+          "L1" : [ "R1" ],
+          "L10" : [ "R10" ],
+          "L11" : [ "R11" ],
+          "L12" : [ "R12" ],
+          "L13" : [ "R13" ],
+          "L14" : [ "R14" ],
+          "L15" : [ "R15" ],
+          "L16" : [ "R16" ],
+          "L17" : [ "R17" ],
+          "L18" : [ "R18" ],
+          "L19" : [ "R19" ],
+          "L2" : [ "R2" ],
+          "L20" : [ "R20" ],
+          "L21" : [ "R21" ],
+          "L22" : [ "R22" ],
+          "L23" : [ "R23" ],
+          "L24" : [ "R24" ],
+          "L25" : [ "" ],
+          "L26" : [ "" ],
+          "L27" : [ "" ],
+          "L28" : [ "" ],
+          "L29" : [ "" ],
+          "L3" : [ "R3" ],
+          "L30" : [ "" ],
+          "L31" : [ "" ],
+          "L32" : [ "" ],
+          "L33" : [ "" ],
+          "L34" : [ "" ],
+          "L35" : [ "" ],
+          "L36" : [ "" ],
+          "L37" : [ "" ],
+          "L38" : [ "" ],
+          "L39" : [ "" ],
+          "L4" : [ "R4" ],
+          "L40" : [ "" ],
+          "L41" : [ "" ],
+          "L42" : [ "" ],
+          "L43" : [ "" ],
+          "L44" : [ "" ],
+          "L45" : [ "" ],
+          "L46" : [ "" ],
+          "L47" : [ "" ],
+          "L48" : [ "" ],
+          "L49" : [ "" ],
+          "L5" : [ "R5" ],
+          "L50" : [ "" ],
+          "L51" : [ "" ],
+          "L52" : [ "" ],
+          "L53" : [ "" ],
+          "L54" : [ "" ],
+          "L55" : [ "" ],
+          "L56" : [ "" ],
+          "L57" : [ "" ],
+          "L58" : [ "" ],
+          "L59" : [ "" ],
+          "L6" : [ "R6" ],
+          "L60" : [ "" ],
+          "L7" : [ "R7" ],
+          "L8" : [ "R8" ],
+          "L9" : [ "R9" ]
+        },
+        "routes" : {
+          "R1" : {
+            "color" : "blue",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R1"
+          },
+          "R10" : {
+            "color" : "black",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R10"
+          },
+          "R11" : {
+            "color" : "blue",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R11"
+          },
+          "R12" : {
+            "color" : "yellow",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R12"
+          },
+          "R13" : {
+            "color" : "orange",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R13"
+          },
+          "R14" : {
+            "color" : "green",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R14"
+          },
+          "R15" : {
+            "color" : "orange",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R15"
+          },
+          "R16" : {
+            "color" : "green",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R16"
+          },
+          "R17" : {
+            "color" : "blue",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R17"
+          },
+          "R18" : {
+            "color" : "purple",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R18"
+          },
+          "R19" : {
+            "color" : "orange",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R19"
+          },
+          "R2" : {
+            "color" : "purple",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R2"
+          },
+          "R20" : {
+            "color" : "pink",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R20"
+          },
+          "R21" : {
+            "color" : "purple",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R21"
+          },
+          "R22" : {
+            "color" : "yellow",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R22"
+          },
+          "R23" : {
+            "color" : "green",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R23"
+          },
+          "R24" : {
+            "color" : "yellow",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R24"
+          },
+          "R25" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R25"
+          },
+          "R26" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R26"
+          },
+          "R27" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R27"
+          },
+          "R28" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R28"
+          },
+          "R29" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R29"
+          },
+          "R3" : {
+            "color" : "green",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R3"
+          },
+          "R30" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R30"
+          },
+          "R31" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R31"
+          },
+          "R32" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R32"
+          },
+          "R33" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R33"
+          },
+          "R34" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R34"
+          },
+          "R35" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R35"
+          },
+          "R36" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R36"
+          },
+          "R37" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R37"
+          },
+          "R38" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R38"
+          },
+          "R39" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R39"
+          },
+          "R4" : {
+            "color" : "black",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R4"
+          },
+          "R40" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R40"
+          },
+          "R41" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R41"
+          },
+          "R42" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R42"
+          },
+          "R43" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R43"
+          },
+          "R44" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R44"
+          },
+          "R45" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R45"
+          },
+          "R46" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R46"
+          },
+          "R47" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R47"
+          },
+          "R48" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R48"
+          },
+          "R49" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R49"
+          },
+          "R5" : {
+            "color" : "yellow",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R5"
+          },
+          "R50" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R50"
+          },
+          "R51" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R51"
+          },
+          "R52" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R52"
+          },
+          "R53" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R53"
+          },
+          "R54" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R54"
+          },
+          "R55" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R55"
+          },
+          "R56" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R56"
+          },
+          "R57" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R57"
+          },
+          "R58" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R58"
+          },
+          "R59" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R59"
+          },
+          "R6" : {
+            "color" : "pink",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R6"
+          },
+          "R60" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R60"
+          },
+          "R7" : {
+            "color" : "green",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R7"
+          },
+          "R8" : {
+            "color" : "blue",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R8"
+          },
+          "R9" : {
+            "color" : "pink",
+            "holds" : "6",
+            "low" : false,
+            "rid" : "R9"
+          }
+        },
+        "setterLock" : 1
+      }
+    }
+  },
+  "series" : "Youth",
+  "session" : {
+    "leadtr" : {
+      "final" : {
+        "FJR" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1801,
+          "startDay" : "Sat",
+          "startTime" : "14:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYA" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1601,
+          "startDay" : "Sat",
+          "startTime" : "09:30:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYB" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1401,
+          "startDay" : "Sat",
+          "startTime" : "14:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYC" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1201,
+          "startDay" : "Sat",
+          "startTime" : "09:30:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYD" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : "1001",
+          "startDay" : "Sat",
+          "startTime" : "14:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MJR" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1901,
+          "startDay" : "Sat",
+          "startTime" : "09:30:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYA" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1701,
+          "startDay" : "Sat",
+          "startTime" : "14:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYB" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1501,
+          "startDay" : "Sat",
+          "startTime" : "09:30:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYC" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1301,
+          "startDay" : "Sat",
+          "startTime" : "14:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYD" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1101,
+          "startDay" : "Sat",
+          "startTime" : "09:30:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "advance" : "N/A",
+        "attempts" : "3",
+        "brush" : "",
+        "climbTime" : "5:00",
+        "format" : "Mod Redpoint",
+        "judgeType" : "Lane",
+        "nroutes" : "4",
+        "nwaves" : "",
+        "routeNames" : "Shared",
+        "transition" : "N/A"
+      }
+    }
+  },
+  "sport80Id" : "865",
+  "state" : "WI",
+  "status" : "Approved",
+  "team" : {
+    "adampettsgmailcom" : {
+      "email" : "adam.petts@gmail.com",
+      "name" : "Adam Petts",
+      "phone" : ""
+    },
+    "jennypettsgmailcom" : {
+      "email" : "jenny.petts@gmail.com",
+      "name" : "Jenny Petts",
+      "phone" : ""
+    },
+    "kellykrajnikgmailcom" : {
+      "email" : "kellykrajnik@gmail.com",
+      "name" : "Kelly Krajnik",
+      "phone" : ""
+    },
+    "krajnikagmailcom" : {
+      "email" : "krajnika@gmail.com",
+      "name" : "Andrew Krajnik",
+      "phone" : ""
+    },
+    "louhill47gmailcom" : {
+      "email" : "lou.hill47@gmail.com",
+      "name" : "Louis Hill",
+      "phone" : ""
+    },
+    "nkahouadjigmailcom" : {
+      "email" : "nkahouadji@gmail.com",
+      "name" : "Nabil Kahouadji",
+      "phone" : ""
+    }
+  },
+  "zip" : "53212"
+}
+}

@@ -14,6 +14,7 @@ struct EventListing: Hashable, Identifiable, Codable {
         case dateStart
         case dateEnd
         case name
+        case isLocal
     }
     
     let id: String
@@ -21,4 +22,14 @@ struct EventListing: Hashable, Identifiable, Codable {
     let dateStart: Date
     let dateEnd: Date
     let name: String
+    let isLocal: Bool
+    
+    init(id: String, categories: [Category], dateStart: Date, dateEnd: Date, name: String, isLocal: Bool = false) {
+        self.id = id
+        self.categories = categories
+        self.dateStart = dateStart
+        self.dateEnd = dateEnd
+        self.name = name
+        self.isLocal = isLocal
+    }
 }

@@ -1,0 +1,53 @@
+{
+  "path" : "/",
+  "data" : {
+  "leadtr" : {
+    "final" : {
+      "R8" : {
+        "29631175" : {
+          "climbTime" : "00:35.57",
+          "disc" : "leadtr",
+          "eid" : "1193",
+          "jid" : 3384,
+          "lid" : "L8",
+          "live" : 1,
+          "mid" : "29631175",
+          "rid" : "R8",
+          "round" : "final",
+          "tsRecv" : 1679097275772,
+          "tsSent" : 1679097281379,
+          "ver" : 8
+        },
+        "29641057" : {
+          "climbTime" : "00:33.75",
+          "disc" : "leadtr",
+          "eid" : "1193",
+          "jid" : 3384,
+          "lid" : "L8",
+          "live" : 1,
+          "mid" : "29641057",
+          "rid" : "R8",
+          "round" : "final",
+          "tsRecv" : 1679097263613,
+          "tsSent" : 1679097269217,
+          "ver" : 8
+        },
+        "29693610" : {
+          "climbTime" : "00:23.00",
+          "disc" : "leadtr",
+          "eid" : "1193",
+          "jid" : 3384,
+          "lid" : "L8",
+          "live" : 1,
+          "mid" : "29693610",
+          "rid" : "R8",
+          "round" : "final",
+          "tsRecv" : 1679097252678,
+          "tsSent" : 1679097258288,
+          "ver" : 8
+        }
+      }
+    }
+  }
+}
+}

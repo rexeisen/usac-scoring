@@ -13,12 +13,17 @@ class EventRosterViewModel: ObservableObject {
     @Published var roster: [Category : [Competitor]] = [:]
     private var cancellable: AnyCancellable? = nil
     
+    private let eventId: String
+    private let isLocal: Bool
+    
     private let eventSource: LDSwiftEventSource.EventSource
     private let handler: RosterEventStore = RosterEventStore()
     
     init(event: EventListing) {
+        self.eventId = event.id
+        self.isLocal = event.isLocal
         // Do this correctly with URL Components
-        let urlString = "https://usacscoring-v7.firebaseio.com/events/\(event.id)/roster.json?print=pretty"
+        let urlString = "https://usacscoring-v7.firebaseio.com/events/\(event.id)/roster.json"
         let url = URL(string: urlString)!
         
         let config = EventSource.Config(handler: self.handler, url: url)
@@ -30,6 +35,19 @@ class EventRosterViewModel: ObservableObject {
     }
     
     func fetchResults() {
-        self.eventSource.start()
+        if isLocal {
+            guard
+                let localFile = Bundle.main.path(forResource: "\(eventId)-roster", ofType: "json"),
+                let json = try? String(contentsOfFile: localFile, encoding: .utf8)
+            else {
+                self.eventSource.start()
+                return
+            }
+            
+            let messageEvent = MessageEvent(data: json)
+            self.handler.onMessage(eventType: "put", messageEvent: messageEvent)
+        } else {
+            self.eventSource.start()
+        }
     }
 }

@@ -60,8 +60,7 @@ struct RouteCard: Codable, Hashable, Comparable {
     }
     
     init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        
+        let container = try decoder.container(keyedBy: CodingKeys.self)        
         
         if let rawAttemptString = try? container.decode([String].self, forKey: .attempts) {
             var builtAttempts: [Attempt] = []

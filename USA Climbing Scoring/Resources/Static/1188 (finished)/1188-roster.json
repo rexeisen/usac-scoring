@@ -1,0 +1,4449 @@
+{
+  "path" : "/",
+  "data" : {
+  "leadtr" : {
+    "final" : {
+      "FJR" : {
+        "28318591" : {
+          "bib" : 1801,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 3.39,
+            "rank" : 3,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "0",
+              "pts" : 0,
+              "rank" : 4,
+              "rankpts" : "5.5",
+              "ts" : 1677947812630
+            }, {
+              "aid" : 2,
+              "hold" : "9",
+              "pts" : 8.9999,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677944810719
+            }, {
+              "aid" : 2,
+              "hold" : "4",
+              "pts" : 3.9999,
+              "rank" : 2,
+              "rankpts" : 2,
+              "ts" : 1677948801542
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 2,
+              "rankpts" : 4,
+              "ts" : 1677946542401
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "28318591",
+          "name" : "Abby McGuire",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29620841" : {
+          "bib" : 1804,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29620841",
+          "name" : "Madeleine Wade",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "scratch" : true,
+          "team" : "Climb Iowa"
+        },
+        "29630923" : {
+          "bib" : 1807,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 2.63,
+            "rank" : 2,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677948324150
+            }, {
+              "aid" : 1,
+              "hold" : "8",
+              "pts" : 8,
+              "rank" : 4,
+              "rankpts" : 4,
+              "ts" : 1677946902047
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 3,
+              "rankpts" : 4,
+              "ts" : 1677945147617
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677943281877
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29630923",
+          "name" : "Sarah Wood",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Nebraska Climbing"
+        },
+        "29632113" : {
+          "bib" : 1803,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.3,
+            "rank" : 7,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 4,
+              "rankpts" : "5.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "7",
+              "pts" : 7,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677946455008
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 6,
+              "rankpts" : "6.5",
+              "ts" : 1677944904481
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 2,
+              "rankpts" : 4,
+              "ts" : 1677943559818
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29632113",
+          "name" : "Jane Higgins",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29632116" : {
+          "bib" : 1808,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 1.63,
+            "rank" : 1,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677946526752
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677948564734
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677943516401
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29632116",
+          "name" : "Vivienne Cerne",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29638855" : {
+          "bib" : 1806,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.11,
+            "rank" : 5,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 4,
+              "rankpts" : "5.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : 2,
+              "ts" : 1677945264277
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 6,
+              "rankpts" : "6.5",
+              "ts" : 1677947072649
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 2,
+              "rankpts" : 4,
+              "ts" : 1677948795371
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29638855",
+          "name" : "Nora Graeve",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29676332" : {
+          "bib" : 1805,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 3.87,
+            "rank" : 4,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "2",
+              "pts" : 1.9999,
+              "rank" : 2,
+              "rankpts" : 2,
+              "ts" : 1677948829320
+            }, {
+              "aid" : 1,
+              "hold" : "6",
+              "pts" : 6,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 1677944583921
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 3,
+              "rankpts" : 4,
+              "ts" : 1677943729032
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 2,
+              "rankpts" : 4,
+              "ts" : 1677942736163
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29676332",
+          "name" : "Nora  McAndrews",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29689369" : {
+          "bib" : 1802,
+          "category" : "FJR",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.69,
+            "rank" : 6,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "0",
+              "pts" : 0,
+              "rank" : 4,
+              "rankpts" : "5.5",
+              "ts" : 1677948076985
+            }, {
+              "aid" : 1,
+              "hold" : "7",
+              "pts" : 7,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677945028076
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 3,
+              "rankpts" : 4,
+              "ts" : 1677946303168
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 2,
+              "rankpts" : 4,
+              "ts" : 1677944199861
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29689369",
+          "name" : "Izabel Johnson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        }
+      },
+      "FYA" : {
+        "29621539" : {
+          "bib" : 1601,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29621539",
+          "name" : "Amara Woodward",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Nebraska Climbing"
+        },
+        "29630508" : {
+          "bib" : 1611,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29630508",
+          "name" : "Lily Cozine",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29639702" : {
+          "bib" : 1608,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29639702",
+          "name" : "Faith Seo",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29641064" : {
+          "bib" : 1605,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29641064",
+          "name" : "Clara Willingham",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29641829" : {
+          "bib" : 1603,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29641829",
+          "name" : "Carys Hardy",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29652525" : {
+          "bib" : 1610,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29652525",
+          "name" : "Lila Czoschke",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29668999" : {
+          "bib" : 1604,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29668999",
+          "name" : "Cecilia Centgraf",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29676150" : {
+          "bib" : 1602,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29676150",
+          "name" : "Bella Wiltsie",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29682349" : {
+          "bib" : 1609,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29682349",
+          "name" : "Gianna Dalton",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "First Ascent Chicago"
+        },
+        "29683712" : {
+          "bib" : 1607,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29683712",
+          "name" : "Emily Selchow",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29699988" : {
+          "bib" : 1606,
+          "category" : "FYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29699988",
+          "name" : "Elsa Plumb",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        }
+      },
+      "FYB" : {
+        "29638586" : {
+          "bib" : 1404,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.37,
+            "rank" : 2,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677944732156
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 2,
+              "rankpts" : "2.5",
+              "ts" : 1677947844525
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677942608262
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29638586",
+          "name" : "Charlotte McCoy",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29639547" : {
+          "bib" : 1412,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 2.1,
+            "rank" : 1,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677943088336
+            }, {
+              "aid" : 1,
+              "hold" : "11",
+              "pts" : 11,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677948442149
+            }, {
+              "aid" : 1,
+              "hold" : "11",
+              "pts" : 11,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677945467394
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677947264620
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29639547",
+          "name" : "Kaija Ericson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29655908" : {
+          "bib" : 1407,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.97,
+            "rank" : 9,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 11,
+              "rankpts" : "11.5",
+              "ts" : 1677947069195
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677948681509
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 8,
+              "rankpts" : 9,
+              "ts" : 1677945768823
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677944758257
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29655908",
+          "name" : "Georgia Gell",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "First Ascent Chicago"
+        },
+        "29661052" : {
+          "bib" : 1417,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.2,
+            "rank" : 3,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677945569523
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677948232669
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677943699807
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29661052",
+          "name" : "Mia Eberth",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29675232" : {
+          "bib" : 1403,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.72,
+            "rank" : 4,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677944275063
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677948945233
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 2,
+              "rankpts" : "2.5",
+              "ts" : 1677947482374
+            }, {
+              "aid" : 1,
+              "hold" : "11",
+              "pts" : 11,
+              "rank" : 13,
+              "rankpts" : 13,
+              "ts" : 1677946470688
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29675232",
+          "name" : "Bridget Centgraf",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29679622" : {
+          "bib" : 1402,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 11.16,
+            "rank" : 14,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 11,
+              "rankpts" : "11.5",
+              "ts" : 1677943979273
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677947675804
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 14,
+              "rankpts" : "14.5",
+              "ts" : 1677946167157
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679622",
+          "name" : "Anna Bach",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29680058" : {
+          "bib" : 1416,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 10.14,
+            "rank" : 13,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 16,
+              "rankpts" : "17.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677947428905
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677944040893
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29680058",
+          "name" : "Meili Windorski",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29681333" : {
+          "bib" : 1405,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.01,
+            "rank" : 6,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 4,
+              "rankpts" : 4,
+              "ts" : 1677945076277
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677947901611
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677948950255
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29681333",
+          "name" : "Emily Easter",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29681792" : {
+          "bib" : 1418,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.34,
+            "rank" : 11,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677945267690
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677948835865
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677947049959
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29681792",
+          "name" : "Sofia Scicero",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29682801" : {
+          "bib" : 1406,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 13.6,
+            "rank" : 15,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 16,
+              "rankpts" : "17.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 8,
+              "rankpts" : 9,
+              "ts" : 1677947600414
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 14,
+              "rankpts" : "14.5",
+              "ts" : 1677945766316
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29682801",
+          "name" : "Emma Kashmark",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29686826" : {
+          "bib" : 1401,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 14.11,
+            "rank" : 16,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "3",
+              "pts" : 2.9999,
+              "rank" : 13,
+              "rankpts" : 13,
+              "ts" : 1677948204299
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "2",
+              "pts" : 1.9999,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677948983433
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 18,
+              "rankpts" : "18.5",
+              "ts" : 1677947502886
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29686826",
+          "name" : "Alena Pfeifer",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29687312" : {
+          "bib" : 1408,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 9.68,
+            "rank" : 12,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "4",
+              "pts" : 3.9999,
+              "rank" : 10,
+              "rankpts" : 10,
+              "ts" : 1677946781682
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 8,
+              "rankpts" : 9,
+              "ts" : 1677948019111
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677944388933
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29687312",
+          "name" : "Gracelynn Arbaugh",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29689603" : {
+          "bib" : 1409,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 15.37,
+            "rank" : 18,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "1",
+              "pts" : 0.9999,
+              "rank" : 15,
+              "rankpts" : 15,
+              "ts" : 1677946206692
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "10",
+              "pts" : 9.9999,
+              "rank" : 16,
+              "rankpts" : 16,
+              "ts" : 1677948649662
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29689603",
+          "name" : "Jill Sherwood",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29692265" : {
+          "bib" : 1419,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.9,
+            "rank" : 8,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677948771656
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677946834743
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677943437681
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29692265",
+          "name" : "Tessa Tiradani",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Frontier Climbing Team"
+        },
+        "29694178" : {
+          "bib" : 1413,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.59,
+            "rank" : 7,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677946037310
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677948072268
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677942979787
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29694178",
+          "name" : "Leanna Galero",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Frontier Climbing Team"
+        },
+        "29695573" : {
+          "bib" : 1414,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.31,
+            "rank" : 10,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 16,
+              "rankpts" : "17.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677945299492
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 1677944333378
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677948057296
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29695573",
+          "name" : "Lillian Thome",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29698160" : {
+          "bib" : 1410,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 6.28,
+            "rank" : 5,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677946592852
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 2,
+              "rankpts" : 6,
+              "ts" : 1677944920542
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677944135683
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "6.5",
+              "ts" : 1677948312759
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29698160",
+          "name" : "Jocelyn Moscatelli",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29699683" : {
+          "bib" : 1415,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 15.34,
+            "rank" : 17,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 14,
+              "rankpts" : 14,
+              "ts" : 1677948931407
+            }, {
+              "aid" : 1,
+              "hold" : "0",
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 1677947133873
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "6",
+              "pts" : 6,
+              "rank" : 17,
+              "rankpts" : 17,
+              "ts" : 1677946766494
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29699683",
+          "name" : "Mackenzie Harkin",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29700867" : {
+          "bib" : 1411,
+          "category" : "FYB",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 16.56,
+            "rank" : 19,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 16,
+              "rankpts" : "17.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 11,
+              "rankpts" : 15,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 12,
+              "rankpts" : "15.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 18,
+              "rankpts" : "18.5",
+              "ts" : 1677944996720
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700867",
+          "name" : "Juliann Dabout",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        }
+      },
+      "FYC" : {
+        "29630853" : {
+          "bib" : 1205,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29630853",
+          "name" : "Evelyn Orton",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Nebraska Climbing"
+        },
+        "29659089" : {
+          "bib" : 1208,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29659089",
+          "name" : "Miriam Adams",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29661598" : {
+          "bib" : 1206,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29661598",
+          "name" : "Gemma McCoy",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29665681" : {
+          "bib" : 1202,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29665681",
+          "name" : "Anna Rexeisen",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29677186" : {
+          "bib" : 1207,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29677186",
+          "name" : "Mara Henson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29679696" : {
+          "bib" : 1201,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679696",
+          "name" : "Alice Hudson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29680943" : {
+          "bib" : 1203,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29680943",
+          "name" : "Caleigha Drees",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29693485" : {
+          "bib" : 1204,
+          "category" : "FYC",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29693485",
+          "name" : "Emma Gruber",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Frontier Climbing Team"
+        }
+      },
+      "FYD" : {
+        "29677087" : {
+          "bib" : 1002,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 1.78,
+            "rank" : 1,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677944491545
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677947024426
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677943399332
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 2,
+              "rankpts" : 2,
+              "ts" : 1677948440391
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29677087",
+          "name" : "Coralyn Reid",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29679752" : {
+          "bib" : 1007,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 10.22,
+            "rank" : 11,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677948612022
+            }, {
+              "aid" : 3,
+              "hold" : "4",
+              "pts" : 3.9998,
+              "rank" : 10,
+              "rankpts" : 10,
+              "ts" : 1677945506462
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677944293114
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : 9,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679752",
+          "name" : "Harper Petts",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29679784" : {
+          "bib" : 1005,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 6.14,
+            "rank" : 7,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : "4.5",
+              "ts" : 1677944751771
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 1677947947984
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677948840241
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : 9,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679784",
+          "name" : "Emerson Mann",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29681071" : {
+          "bib" : 1001,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.68,
+            "rank" : 6,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : "4.5",
+              "ts" : 1677944197354
+            }, {
+              "aid" : 1,
+              "hold" : "7",
+              "pts" : 7,
+              "rank" : 6,
+              "rankpts" : 6,
+              "ts" : 1677946505770
+            }, {
+              "aid" : 2,
+              "hold" : "9",
+              "pts" : 8.9999,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 1677947909104
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677947403649
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29681071",
+          "name" : "Clara Sorrell",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29689253" : {
+          "bib" : 1008,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 3.3,
+            "rank" : 3,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : "4.5",
+              "ts" : 1677948146203
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 2,
+              "rankpts" : "2.5",
+              "ts" : 1677943880204
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677946824630
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 3,
+              "rankpts" : "3.5",
+              "ts" : 1677945635081
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29689253",
+          "name" : "Lillian Otteson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29695127" : {
+          "bib" : 1003,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 2.03,
+            "rank" : 2,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : "4.5",
+              "ts" : 1677949055982
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 2,
+              "rankpts" : "2.5",
+              "ts" : 1677945182183
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677945480103
+            }, {
+              "aid" : 3,
+              "hold" : "8",
+              "pts" : 7.9998,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677947962091
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29695127",
+          "name" : "Elise Liberko",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Frontier Climbing Team"
+        },
+        "29695129" : {
+          "bib" : 1000,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.33,
+            "rank" : 5,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : "4.5",
+              "ts" : 1677947746974
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 4,
+              "rankpts" : 4,
+              "ts" : 1677945690524
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677944470642
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : 9,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29695129",
+          "name" : "CLAIRE LIBERKO",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Frontier Climbing Team"
+        },
+        "29696477" : {
+          "bib" : 1009,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 6.98,
+            "rank" : 8,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 10,
+              "rankpts" : 10,
+              "ts" : 1677946049416
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 8,
+              "rankpts" : 8,
+              "ts" : 1677949002254
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 8,
+              "rankpts" : "8.5",
+              "ts" : 1677943498051
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 3,
+              "rankpts" : "3.5",
+              "ts" : 1677948195734
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29696477",
+          "name" : "Natalie Kennedy",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29699840" : {
+          "bib" : 1006,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.61,
+            "rank" : 10,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 8,
+              "rankpts" : 8,
+              "ts" : 1677948472614
+            }, {
+              "aid" : 2,
+              "hold" : "4",
+              "pts" : 3.9999,
+              "rank" : 9,
+              "rankpts" : 9,
+              "ts" : 1677945367186
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 8,
+              "rankpts" : "8.5",
+              "ts" : 1677943962420
+            }, {
+              "aid" : 1,
+              "hold" : "0",
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : 9,
+              "ts" : 1677945745004
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29699840",
+          "name" : "Finley Arbaugh",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29699890" : {
+          "bib" : 1010,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.17,
+            "rank" : 4,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 2,
+              "rankpts" : "4.5",
+              "ts" : 1677946593536
+            }, {
+              "aid" : 2,
+              "hold" : "10",
+              "pts" : 9.9999,
+              "rank" : 5,
+              "rankpts" : 5,
+              "ts" : 1677947773191
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677943799737
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : 9,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29699890",
+          "name" : "Willa MacLean",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29700856" : {
+          "bib" : 1004,
+          "category" : "FYD",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.59,
+            "rank" : 9,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 9,
+              "rankpts" : 9,
+              "ts" : 1677948874288
+            }, {
+              "aid" : 3,
+              "hold" : "2",
+              "pts" : 1.9998,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677944273744
+            }, {
+              "aid" : 2,
+              "hold" : "3",
+              "pts" : 2.9999,
+              "rank" : 10,
+              "rankpts" : 10,
+              "ts" : 1677947142214
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677948055468
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700856",
+          "name" : "Eliza Jung",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        }
+      },
+      "MJR" : {
+        "29623331" : {
+          "bib" : 1902,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29623331",
+          "name" : "Brennan Pier",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29633105" : {
+          "bib" : 1903,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29633105",
+          "name" : "Carter Mallberg",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Vertical Endeavors St. Paul"
+        },
+        "29640079" : {
+          "bib" : 1901,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29640079",
+          "name" : "Adam Colyer",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Nebraska Climbing"
+        },
+        "29641850" : {
+          "bib" : 1905,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29641850",
+          "name" : "Henry Stenzel",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29647384" : {
+          "bib" : 1904,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29647384",
+          "name" : "Erik Cmiel",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29653613" : {
+          "bib" : 1907,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29653613",
+          "name" : "Wes Anderson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29657827" : {
+          "bib" : 1906,
+          "category" : "MJR",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29657827",
+          "name" : "Timothy Calnon",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        }
+      },
+      "MYA" : {
+        "29620571" : {
+          "bib" : 1706,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.95,
+            "rank" : 3,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677944407249
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : "9.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : "10.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677947581855
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29620571",
+          "name" : "Liam Donohue Brown",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Vertical Endeavors St. Paul"
+        },
+        "29638794" : {
+          "bib" : 1704,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5,
+            "rank" : 4,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677943902804
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : "9.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677946888254
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 10,
+              "rankpts" : 11,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29638794",
+          "name" : "Greyson Sale",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Vertical Endeavors St. Paul"
+        },
+        "29641677" : {
+          "bib" : 1712,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5,
+            "rank" : 4,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677944151720
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : "9.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677948033418
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 10,
+              "rankpts" : 11,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29641677",
+          "name" : "Yorick Nicholie",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Vertical Endeavors St. Paul"
+        },
+        "29646246" : {
+          "bib" : 1701,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 6.26,
+            "rank" : 8,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "10",
+              "pts" : 9.9999,
+              "rank" : 12,
+              "rankpts" : 12,
+              "ts" : 1677945674708
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 2,
+              "rankpts" : 2,
+              "ts" : 1677948502672
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 8,
+              "rankpts" : 8,
+              "ts" : 1677946448515
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677947883504
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29646246",
+          "name" : "Caleb Kippert",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29667415" : {
+          "bib" : 1705,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 6.75,
+            "rank" : 10,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677947056764
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 3,
+              "rankpts" : 4,
+              "ts" : 1677942688522
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : "10.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 4,
+              "rankpts" : "4.5",
+              "ts" : 1677944750864
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29667415",
+          "name" : "Jasper Horn",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29668890" : {
+          "bib" : 1713,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.9,
+            "rank" : 2,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677943659808
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 3,
+              "rankpts" : 4,
+              "ts" : 1677947534094
+            }, {
+              "aid" : 1,
+              "hold" : "7",
+              "pts" : 7,
+              "rank" : 4,
+              "rankpts" : "4.5",
+              "ts" : 1677945059061
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677946777976
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29668890",
+          "name" : "Zachary Matzek",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29669251" : {
+          "bib" : 1711,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29669251",
+          "name" : "Theo Makanoa",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R22",
+          "ro" : "",
+          "sc" : "",
+          "scratch" : true,
+          "team" : ""
+        },
+        "29670274" : {
+          "bib" : 1702,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 2.06,
+            "rank" : 1,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677944786392
+            }, {
+              "aid" : 1,
+              "hold" : "6",
+              "pts" : 6,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677947384549
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677942693665
+            }, {
+              "aid" : 1,
+              "hold" : "10",
+              "pts" : 10,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677945969405
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29670274",
+          "name" : "Elijah Mikkalson",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29681879" : {
+          "bib" : 1703,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.62,
+            "rank" : 7,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "12",
+              "pts" : 12,
+              "rank" : 8,
+              "rankpts" : "8.5",
+              "ts" : 1677947407681
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 3,
+              "rankpts" : 4,
+              "ts" : 1677946439942
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 6,
+              "rankpts" : "6.5",
+              "ts" : 1677948953748
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 4,
+              "rankpts" : "4.5",
+              "ts" : 1677944525495
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29681879",
+          "name" : "Erik Zweber",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29692953" : {
+          "bib" : 1707,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 6.59,
+            "rank" : 9,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677946830835
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : "9.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "7",
+              "pts" : 7,
+              "rank" : 4,
+              "rankpts" : "4.5",
+              "ts" : 1677948338641
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 10,
+              "rankpts" : 11,
+              "ts" : 0
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29692953",
+          "name" : "Liam Kahler",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29693213" : {
+          "bib" : 1710,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 5.24,
+            "rank" : 6,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 4,
+              "ts" : 1677946197345
+            }, {
+              "aid" : 2,
+              "hold" : "1",
+              "pts" : 0.9999,
+              "rank" : 6,
+              "rankpts" : 6,
+              "ts" : 1677944455846
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : "10.5",
+              "ts" : 0
+            }, {
+              "aid" : 3,
+              "hold" : "6",
+              "pts" : 5.9998,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677948490953
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29693213",
+          "name" : "Phinehas Kroesche",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29700713" : {
+          "bib" : 1709,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.8,
+            "rank" : 12,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "12",
+              "pts" : 11.9999,
+              "rank" : 10,
+              "rankpts" : 10,
+              "ts" : 1677945378435
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : "9.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : "10.5",
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "4",
+              "pts" : 3.9999,
+              "rank" : 6,
+              "rankpts" : 6,
+              "ts" : 1677948131485
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700713",
+          "name" : "Oliver Conlon",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29700802" : {
+          "bib" : 1708,
+          "category" : "MYA",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.05,
+            "rank" : 11,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "12",
+              "pts" : 12,
+              "rank" : 8,
+              "rankpts" : "8.5",
+              "ts" : 1677945057810
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 7,
+              "rankpts" : "9.5",
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "3",
+              "pts" : 3,
+              "rank" : 6,
+              "rankpts" : "6.5",
+              "ts" : 1677948599951
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677947253984
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700802",
+          "name" : "Matthew Cypher",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        }
+      },
+      "MYB" : {
+        "29641898" : {
+          "bib" : 1506,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29641898",
+          "name" : "Chyen Melton Hanily",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29669181" : {
+          "bib" : 1501,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29669181",
+          "name" : "Aiden Schaeffer",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29669290" : {
+          "bib" : 1515,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29669290",
+          "name" : "Ryder Friesen",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29671633" : {
+          "bib" : 1507,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29671633",
+          "name" : "Eli Herman",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29675841" : {
+          "bib" : 1503,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29675841",
+          "name" : "Avery Drees",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29676622" : {
+          "bib" : 1511,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29676622",
+          "name" : "Mason Kelley",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29677210" : {
+          "bib" : 1505,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29677210",
+          "name" : "Cameron Oden",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29677238" : {
+          "bib" : 1516,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29677238",
+          "name" : "Tori Rushing",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29677360" : {
+          "bib" : 1509,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29677360",
+          "name" : "Jonah Wright",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "First Ascent Chicago"
+        },
+        "29679497" : {
+          "bib" : 1508,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679497",
+          "name" : "James Koch",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29679814" : {
+          "bib" : 1510,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679814",
+          "name" : "Jonathan  Zweber",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29680771" : {
+          "bib" : 1512,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29680771",
+          "name" : "Mason Rowse",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29687311" : {
+          "bib" : 1519,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29687311",
+          "name" : "Wyatt Arbaugh",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29688130" : {
+          "bib" : 1514,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29688130",
+          "name" : "Nick Dewhirst",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29691617" : {
+          "bib" : 1504,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29691617",
+          "name" : "Bo Fenner",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29693001" : {
+          "bib" : 1502,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29693001",
+          "name" : "Austin Moon",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29694833" : {
+          "bib" : 1517,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29694833",
+          "name" : "Tyler Boyll",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29699416" : {
+          "bib" : 1513,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29699416",
+          "name" : "Moses Brandt",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29699600" : {
+          "bib" : 1518,
+          "category" : "MYB",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29699600",
+          "name" : "Winston Palmer",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        }
+      },
+      "MYC" : {
+        "29654392" : {
+          "bib" : 1310,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 4.31,
+            "rank" : 5,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677946831343
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 3,
+              "ts" : 1677943296731
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 3,
+              "hold" : "TOP",
+              "pts" : 99.9998,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 1677945454472
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29654392",
+          "name" : "Miles Downin",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Bloomington"
+        },
+        "29660413" : {
+          "bib" : 1306,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 3.22,
+            "rank" : 3,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "7",
+              "pts" : 7,
+              "rank" : 4,
+              "rankpts" : 4,
+              "ts" : 1677948273644
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 3,
+              "ts" : 1677942875592
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 4,
+              "rankpts" : "4.5",
+              "ts" : 1677947383657
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 2,
+              "ts" : 1677944150937
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29660413",
+          "name" : "HOLDEN FRIESEN",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29661562" : {
+          "bib" : 1308,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 1.73,
+            "rank" : 1,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : "1.5",
+              "ts" : 1677944942698
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 3,
+              "ts" : 1677942186249
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 1,
+              "rankpts" : 1,
+              "ts" : 1677948079557
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 2,
+              "ts" : 1677943280368
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29661562",
+          "name" : "Leo Everroad",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Nebraska Climbing"
+        },
+        "29663370" : {
+          "bib" : 1301,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.29,
+            "rank" : 7,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 6,
+              "rankpts" : 6,
+              "ts" : 1677947271146
+            }, {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 4,
+              "rankpts" : "4.5",
+              "ts" : 1677948945930
+            }, {
+              "aid" : 1,
+              "hold" : "11",
+              "pts" : 11,
+              "rank" : 9,
+              "rankpts" : "9.5",
+              "ts" : 1677943799034
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29663370",
+          "name" : "Brecker Menke",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29677397" : {
+          "bib" : 1309,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 9.92,
+            "rank" : 11,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "2",
+              "pts" : 2,
+              "rank" : 8,
+              "rankpts" : 8,
+              "ts" : 1677943829072
+            }, {
+              "aid" : 2,
+              "hold" : "9",
+              "pts" : 8.9999,
+              "rank" : 10,
+              "rankpts" : 10,
+              "ts" : 1677948196431
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "11",
+              "pts" : 10.9999,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677945988110
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29677397",
+          "name" : "Liam Morgan",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Vertical Endeavors IL"
+        },
+        "29679753" : {
+          "bib" : 1311,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 11.96,
+            "rank" : 13,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 13,
+              "rankpts" : 13,
+              "ts" : 1677947586483
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 13,
+              "rankpts" : 13,
+              "ts" : 1677948653444
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29679753",
+          "name" : "Muir Petts",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29680057" : {
+          "bib" : 1307,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 2.45,
+            "rank" : 2,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 2,
+              "hold" : "12",
+              "pts" : 11.9999,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677947033737
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 3,
+              "ts" : 1677942524391
+            }, {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 2,
+              "rankpts" : 2,
+              "ts" : 1677948680235
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 2,
+              "ts" : 1677943596692
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29680057",
+          "name" : "Jianli Windorski",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29680899" : {
+          "bib" : 1302,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.93,
+            "rank" : 8,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "6",
+              "pts" : 6,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677945515347
+            }, {
+              "aid" : 2,
+              "hold" : "6",
+              "pts" : 5.9999,
+              "rank" : 12,
+              "rankpts" : 12,
+              "ts" : 1677943563382
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 7,
+              "rankpts" : "7.5",
+              "ts" : 1677946102581
+            }, {
+              "aid" : 2,
+              "hold" : "12",
+              "pts" : 11.9999,
+              "rank" : 8,
+              "rankpts" : 8,
+              "ts" : 1677948883769
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29680899",
+          "name" : "Colin Humphreys",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29692439" : {
+          "bib" : 1304,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.07,
+            "rank" : 9,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "5",
+              "pts" : 5,
+              "rank" : 7,
+              "rankpts" : 7,
+              "ts" : 1677945755893
+            }, {
+              "aid" : 3,
+              "hold" : "9",
+              "pts" : 8.9998,
+              "rank" : 11,
+              "rankpts" : 11,
+              "ts" : 1677948865963
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677947677190
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29692439",
+          "name" : "Eero Kronzer",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29692462" : {
+          "bib" : 1305,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 8.9,
+            "rank" : 10,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677947481622
+            }, {
+              "aid" : 1,
+              "hold" : "1",
+              "pts" : 1,
+              "rank" : 7,
+              "rankpts" : "7.5",
+              "ts" : 1677948224503
+            }, {
+              "aid" : 1,
+              "hold" : "11",
+              "pts" : 11,
+              "rank" : 9,
+              "rankpts" : "9.5",
+              "ts" : 1677944001777
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29692462",
+          "name" : "Evan Kennedy",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        },
+        "29700168" : {
+          "bib" : 1312,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 10.38,
+            "rank" : 12,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677948449780
+            }, {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 2,
+              "hold" : "10",
+              "pts" : 9.9999,
+              "rank" : 12,
+              "rankpts" : 12,
+              "ts" : 1677944665616
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700168",
+          "name" : "Oliver Andrews",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29700677" : {
+          "bib" : 1303,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 3.97,
+            "rank" : 4,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "hold" : "6",
+              "pts" : 6,
+              "rank" : 5,
+              "rankpts" : "5.5",
+              "ts" : 1677947490376
+            }, {
+              "aid" : 1,
+              "hold" : "TOP",
+              "pts" : 100,
+              "rank" : 1,
+              "rankpts" : 3,
+              "ts" : 1677942716178
+            }, {
+              "aid" : 1,
+              "hold" : "4",
+              "pts" : 4,
+              "rank" : 3,
+              "rankpts" : 3,
+              "ts" : 1677947691669
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677944993845
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700677",
+          "name" : "Dominic Unnasch",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29700850" : {
+          "bib" : 1313,
+          "category" : "MYC",
+          "final" : {
+            "advance" : 0,
+            "countback" : 0,
+            "npts" : 4,
+            "pts" : 7.17,
+            "rank" : 6,
+            "ro" : "",
+            "route" : [ {
+              "aid" : 1,
+              "fake" : 1,
+              "hold" : 0,
+              "pts" : 0,
+              "rank" : 9,
+              "rankpts" : 11,
+              "ts" : 0
+            }, {
+              "aid" : 1,
+              "hold" : "9",
+              "pts" : 9,
+              "rank" : 7,
+              "rankpts" : 8,
+              "ts" : 1677948622137
+            }, {
+              "aid" : 2,
+              "hold" : "2",
+              "pts" : 1.9999,
+              "rank" : 6,
+              "rankpts" : 6,
+              "ts" : 1677947283882
+            }, {
+              "aid" : 2,
+              "hold" : "TOP",
+              "pts" : 99.9999,
+              "rank" : 4,
+              "rankpts" : 5,
+              "ts" : 1677946389190
+            } ],
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29700850",
+          "name" : "Sully Liberko",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        }
+      },
+      "MYD" : {
+        "29666426" : {
+          "bib" : 1101,
+          "category" : "MYD",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29666426",
+          "name" : "Griffin Sponagle",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Adventure Rock"
+        },
+        "29688705" : {
+          "bib" : 1104,
+          "category" : "MYD",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29688705",
+          "name" : "Shane  Shaw",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : ""
+        },
+        "29693588" : {
+          "bib" : 1103,
+          "category" : "MYD",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29693588",
+          "name" : "Niels Berwald",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Team VE Minneapolis"
+        },
+        "29693831" : {
+          "bib" : 1102,
+          "category" : "MYD",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29693831",
+          "name" : "Jack Parker",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Roca Climbing & Fitness"
+        },
+        "29694362" : {
+          "bib" : 1105,
+          "category" : "MYD",
+          "final" : {
+            "advance" : 0,
+            "npts" : "",
+            "pts" : "",
+            "rank" : "",
+            "ro" : "",
+            "score" : "",
+            "so" : [ null, "" ],
+            "st" : [ null, "" ],
+            "start" : ""
+          },
+          "memberId" : "29694362",
+          "name" : "Snowden Hainley",
+          "printTime" : "3/3/2023, 7:19:51 PM",
+          "region" : "R61",
+          "ro" : "",
+          "sc" : "",
+          "team" : "Climb Iowa"
+        }
+      }
+    }
+  }
+}
+}

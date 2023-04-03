@@ -32,6 +32,17 @@
 		FCDD212929C67D130056FFDA /* RosterEventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212829C67D130056FFDA /* RosterEventStore.swift */; };
 		FCDD212C29C67DAB0056FFDA /* EventRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212B29C67DAB0056FFDA /* EventRoster.swift */; };
 		FCDD212E29C67FCD0056FFDA /* Competitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDD212D29C67FCD0056FFDA /* Competitor.swift */; };
+		FCE79BE829DA672F00F3509A /* 1196-config.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BDB29DA672F00F3509A /* 1196-config.json */; };
+		FCE79BE929DA672F00F3509A /* in-progress-message.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BDC29DA672F00F3509A /* in-progress-message.json */; };
+		FCE79BEA29DA672F00F3509A /* 1196-roster.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BDD29DA672F00F3509A /* 1196-roster.json */; };
+		FCE79BEB29DA672F00F3509A /* 1196-routecard.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BDE29DA672F00F3509A /* 1196-routecard.json */; };
+		FCE79BEC29DA672F00F3509A /* 1196-roster-final.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BDF29DA672F00F3509A /* 1196-roster-final.json */; };
+		FCE79BED29DA672F00F3509A /* 1188-config.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BE129DA672F00F3509A /* 1188-config.json */; };
+		FCE79BEE29DA672F00F3509A /* 1188-roster.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BE229DA672F00F3509A /* 1188-roster.json */; };
+		FCE79BEF29DA672F00F3509A /* 1188-routecard.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BE329DA672F00F3509A /* 1188-routecard.json */; };
+		FCE79BF029DA672F00F3509A /* 1193-roster.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BE529DA672F00F3509A /* 1193-roster.json */; };
+		FCE79BF129DA672F00F3509A /* 1193-config.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BE629DA672F00F3509A /* 1193-config.json */; };
+		FCE79BF229DA672F00F3509A /* 1193-routecard.json in Resources */ = {isa = PBXBuildFile; fileRef = FCE79BE729DA672F00F3509A /* 1193-routecard.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +90,17 @@
 		FCDD212829C67D130056FFDA /* RosterEventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterEventStore.swift; sourceTree = "<group>"; };
 		FCDD212B29C67DAB0056FFDA /* EventRoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRoster.swift; sourceTree = "<group>"; };
 		FCDD212D29C67FCD0056FFDA /* Competitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competitor.swift; sourceTree = "<group>"; };
+		FCE79BDB29DA672F00F3509A /* 1196-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1196-config.json"; sourceTree = "<group>"; };
+		FCE79BDC29DA672F00F3509A /* in-progress-message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "in-progress-message.json"; sourceTree = "<group>"; };
+		FCE79BDD29DA672F00F3509A /* 1196-roster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1196-roster.json"; sourceTree = "<group>"; };
+		FCE79BDE29DA672F00F3509A /* 1196-routecard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1196-routecard.json"; sourceTree = "<group>"; };
+		FCE79BDF29DA672F00F3509A /* 1196-roster-final.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1196-roster-final.json"; sourceTree = "<group>"; };
+		FCE79BE129DA672F00F3509A /* 1188-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1188-config.json"; sourceTree = "<group>"; };
+		FCE79BE229DA672F00F3509A /* 1188-roster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1188-roster.json"; sourceTree = "<group>"; };
+		FCE79BE329DA672F00F3509A /* 1188-routecard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1188-routecard.json"; sourceTree = "<group>"; };
+		FCE79BE529DA672F00F3509A /* 1193-roster.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1193-roster.json"; sourceTree = "<group>"; };
+		FCE79BE629DA672F00F3509A /* 1193-config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1193-config.json"; sourceTree = "<group>"; };
+		FCE79BE729DA672F00F3509A /* 1193-routecard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "1193-routecard.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +211,7 @@
 				FC3C557329C151EE000EF32E /* EventResults.swift */,
 				FC3C556429C13E40000EF32E /* Networking */,
 				FCD9FF9329C13C9B005A9900 /* Preview Content */,
+				FCE79BD829DA66ED00F3509A /* Resources */,
 				FCD9FF8D29C13C9A005A9900 /* USA_Climbing_ScoringApp.swift */,
 				FC3C556729C149BA000EF32E /* ViewModels */,
 			);
@@ -226,6 +249,56 @@
 				FCDD212B29C67DAB0056FFDA /* EventRoster.swift */,
 			);
 			path = Roster;
+			sourceTree = "<group>";
+		};
+		FCE79BD829DA66ED00F3509A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCE79BD929DA670D00F3509A /* Static */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCE79BD929DA670D00F3509A /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				FCE79BE029DA672F00F3509A /* 1188 (finished) */,
+				FCE79BE429DA672F00F3509A /* 1193 (not started) */,
+				FCE79BDA29DA672F00F3509A /* 1196 (in progress) */,
+			);
+			path = Static;
+			sourceTree = "<group>";
+		};
+		FCE79BDA29DA672F00F3509A /* 1196 (in progress) */ = {
+			isa = PBXGroup;
+			children = (
+				FCE79BDB29DA672F00F3509A /* 1196-config.json */,
+				FCE79BDC29DA672F00F3509A /* in-progress-message.json */,
+				FCE79BDD29DA672F00F3509A /* 1196-roster.json */,
+				FCE79BDE29DA672F00F3509A /* 1196-routecard.json */,
+				FCE79BDF29DA672F00F3509A /* 1196-roster-final.json */,
+			);
+			path = "1196 (in progress)";
+			sourceTree = "<group>";
+		};
+		FCE79BE029DA672F00F3509A /* 1188 (finished) */ = {
+			isa = PBXGroup;
+			children = (
+				FCE79BE129DA672F00F3509A /* 1188-config.json */,
+				FCE79BE229DA672F00F3509A /* 1188-roster.json */,
+				FCE79BE329DA672F00F3509A /* 1188-routecard.json */,
+			);
+			path = "1188 (finished)";
+			sourceTree = "<group>";
+		};
+		FCE79BE429DA672F00F3509A /* 1193 (not started) */ = {
+			isa = PBXGroup;
+			children = (
+				FCE79BE529DA672F00F3509A /* 1193-roster.json */,
+				FCE79BE629DA672F00F3509A /* 1193-config.json */,
+				FCE79BE729DA672F00F3509A /* 1193-routecard.json */,
+			);
+			path = "1193 (not started)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,8 +411,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE79BF229DA672F00F3509A /* 1193-routecard.json in Resources */,
+				FCE79BEE29DA672F00F3509A /* 1188-roster.json in Resources */,
 				FCD9FF9529C13C9B005A9900 /* Preview Assets.xcassets in Resources */,
+				FCE79BF029DA672F00F3509A /* 1193-roster.json in Resources */,
+				FCE79BE829DA672F00F3509A /* 1196-config.json in Resources */,
+				FCE79BEB29DA672F00F3509A /* 1196-routecard.json in Resources */,
+				FCE79BF129DA672F00F3509A /* 1193-config.json in Resources */,
 				FCD9FF9229C13C9B005A9900 /* Assets.xcassets in Resources */,
+				FCE79BEC29DA672F00F3509A /* 1196-roster-final.json in Resources */,
+				FCE79BED29DA672F00F3509A /* 1188-config.json in Resources */,
+				FCE79BEA29DA672F00F3509A /* 1196-roster.json in Resources */,
+				FCE79BE929DA672F00F3509A /* in-progress-message.json in Resources */,
+				FCE79BEF29DA672F00F3509A /* 1188-routecard.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

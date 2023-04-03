@@ -83,6 +83,7 @@ struct EventResults_Previews: PreviewProvider {
                                          categories: Category.allCases,
                                          dateStart: Date(),
                                          dateEnd: Date(),
-                                         name: "QE R61 Frontier Climbing and Fitness"))
+                                         name: "QE R61 Frontier Climbing and Fitness",
+                                         isLocal: true))
     }
 }

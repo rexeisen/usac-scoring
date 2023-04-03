@@ -1,0 +1,622 @@
+{
+  "path" : "/",
+  "data" : {
+  "categories" : [ "FJR", "FYA", "FYB", "FYC", "FYD", "MJR", "MYA", "MYB", "MYC", "MYD" ],
+  "city" : "Randolph",
+  "dateEnd" : "2023/03/18",
+  "dateStart" : "2023/03/18",
+  "disciplines" : [ "LeadTR" ],
+  "division" : "",
+  "eid" : "1196",
+  "format" : "Flash",
+  "host" : "CRG Randolph",
+  "infoSheet" : "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG77_X8oIV0w9aWeci_KlHyReahleav-UW4j0qCciq6DFu45KkXbuycCEdQE6DkMHBBHn89mEZwS5P/pubhtml",
+  "level" : "QE",
+  "name" : "QE R92 CRG Randolph",
+  "region" : "R92",
+  "rounds" : "1",
+  "routes" : {
+    "leadtr" : {
+      "final" : {
+        "catRoutes" : {
+          "FJR" : [ 1, 2, 3 ],
+          "FYA" : [ 4, 5, 6 ],
+          "FYB" : [ 7, 8, 9 ],
+          "FYC" : [ 10, 11, 12 ],
+          "FYD" : [ 13, 14, 15 ],
+          "MJR" : [ 16, 17, 18 ],
+          "MYA" : [ 19, 20, 21 ],
+          "MYB" : [ 22, 23, 24 ],
+          "MYC" : [ 25, 26, 27 ],
+          "MYD" : [ 28, 29, 30 ]
+        },
+        "lanes" : {
+          "L0" : [ "*" ],
+          "L1" : [ "FJR1" ],
+          "L10" : [ "FYC1" ],
+          "L11" : [ "FYC2" ],
+          "L12" : [ "FYC3" ],
+          "L13" : [ "FYD1" ],
+          "L14" : [ "FYD2" ],
+          "L15" : [ "FYD3" ],
+          "L16" : [ "MJR1" ],
+          "L17" : [ "MJR2" ],
+          "L18" : [ "MJR3" ],
+          "L19" : [ "MYA1" ],
+          "L2" : [ "FJR2" ],
+          "L20" : [ "MYA2" ],
+          "L21" : [ "MYA3" ],
+          "L22" : [ "MYB1" ],
+          "L23" : [ "MYB2" ],
+          "L24" : [ "MYB3" ],
+          "L25" : [ "MYC1" ],
+          "L26" : [ "MYC2" ],
+          "L27" : [ "MYC3" ],
+          "L28" : [ "MYD1" ],
+          "L29" : [ "MYD2" ],
+          "L3" : [ "FJR3" ],
+          "L30" : [ "MYD3" ],
+          "L31" : [ "" ],
+          "L32" : [ "" ],
+          "L33" : [ "" ],
+          "L34" : [ "" ],
+          "L35" : [ "" ],
+          "L36" : [ "" ],
+          "L37" : [ "" ],
+          "L38" : [ "" ],
+          "L39" : [ "" ],
+          "L4" : [ "FYA1" ],
+          "L40" : [ "" ],
+          "L41" : [ "" ],
+          "L42" : [ "" ],
+          "L43" : [ "" ],
+          "L44" : [ "" ],
+          "L45" : [ "" ],
+          "L46" : [ "" ],
+          "L47" : [ "" ],
+          "L48" : [ "" ],
+          "L49" : [ "" ],
+          "L5" : [ "FYA2" ],
+          "L50" : [ "" ],
+          "L51" : [ "" ],
+          "L52" : [ "" ],
+          "L53" : [ "" ],
+          "L54" : [ "" ],
+          "L55" : [ "" ],
+          "L56" : [ "" ],
+          "L57" : [ "" ],
+          "L58" : [ "" ],
+          "L59" : [ "" ],
+          "L6" : [ "FYA3" ],
+          "L60" : [ "" ],
+          "L7" : [ "FYB1" ],
+          "L8" : [ "FYB2" ],
+          "L9" : [ "FYB3" ]
+        },
+        "routes" : {
+          "R1" : {
+            "color" : "yellow",
+            "holds" : 30,
+            "low" : false,
+            "rid" : "FJR1"
+          },
+          "R10" : {
+            "color" : "green",
+            "holds" : 32,
+            "low" : false,
+            "rid" : "FYC1"
+          },
+          "R11" : {
+            "color" : "orange",
+            "holds" : 32,
+            "low" : false,
+            "rid" : "FYC2"
+          },
+          "R12" : {
+            "color" : "red",
+            "holds" : 23,
+            "low" : false,
+            "rid" : "FYC3"
+          },
+          "R13" : {
+            "color" : "orange",
+            "holds" : 36,
+            "low" : false,
+            "rid" : "FYD1"
+          },
+          "R14" : {
+            "color" : "white",
+            "holds" : 48,
+            "low" : false,
+            "rid" : "FYD2"
+          },
+          "R15" : {
+            "color" : "white",
+            "holds" : 42,
+            "low" : false,
+            "rid" : "FYD3"
+          },
+          "R16" : {
+            "color" : "black",
+            "holds" : 35,
+            "low" : false,
+            "rid" : "MJR1"
+          },
+          "R17" : {
+            "color" : "green",
+            "holds" : 28,
+            "low" : false,
+            "rid" : "MJR2"
+          },
+          "R18" : {
+            "color" : "yellow",
+            "holds" : 37,
+            "low" : false,
+            "rid" : "MJR3"
+          },
+          "R19" : {
+            "color" : "black",
+            "holds" : 35,
+            "low" : false,
+            "rid" : "MYA1"
+          },
+          "R2" : {
+            "color" : "blue",
+            "holds" : 36,
+            "low" : false,
+            "rid" : "FJR2"
+          },
+          "R20" : {
+            "color" : "green",
+            "holds" : 28,
+            "low" : false,
+            "rid" : "MYA2"
+          },
+          "R21" : {
+            "color" : "yellow",
+            "holds" : 37,
+            "low" : false,
+            "rid" : "MYA3"
+          },
+          "R22" : {
+            "color" : "purple",
+            "holds" : 31,
+            "low" : false,
+            "rid" : "MYB1"
+          },
+          "R23" : {
+            "color" : "green",
+            "holds" : 33,
+            "low" : false,
+            "rid" : "MYB2"
+          },
+          "R24" : {
+            "color" : "red",
+            "holds" : 33,
+            "low" : false,
+            "rid" : "MYB3"
+          },
+          "R25" : {
+            "color" : "green",
+            "holds" : 32,
+            "low" : false,
+            "rid" : "MYC1"
+          },
+          "R26" : {
+            "color" : "orange",
+            "holds" : 32,
+            "low" : false,
+            "rid" : "MYC2"
+          },
+          "R27" : {
+            "color" : "red",
+            "holds" : 23,
+            "low" : false,
+            "rid" : "MYC3"
+          },
+          "R28" : {
+            "color" : "orange",
+            "holds" : 36,
+            "low" : false,
+            "rid" : "MYD1"
+          },
+          "R29" : {
+            "color" : "white",
+            "holds" : 48,
+            "low" : false,
+            "rid" : "MYD2"
+          },
+          "R3" : {
+            "color" : "black",
+            "holds" : 31,
+            "low" : false,
+            "rid" : "FJR3"
+          },
+          "R30" : {
+            "color" : "white",
+            "holds" : 42,
+            "low" : false,
+            "rid" : "MYD3"
+          },
+          "R31" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R31"
+          },
+          "R32" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R32"
+          },
+          "R33" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R33"
+          },
+          "R34" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R34"
+          },
+          "R35" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R35"
+          },
+          "R36" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R36"
+          },
+          "R37" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R37"
+          },
+          "R38" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R38"
+          },
+          "R39" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R39"
+          },
+          "R4" : {
+            "color" : "yellow",
+            "holds" : 30,
+            "low" : false,
+            "rid" : "FYA1"
+          },
+          "R40" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R40"
+          },
+          "R41" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R41"
+          },
+          "R42" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R42"
+          },
+          "R43" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R43"
+          },
+          "R44" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R44"
+          },
+          "R45" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R45"
+          },
+          "R46" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R46"
+          },
+          "R47" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R47"
+          },
+          "R48" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R48"
+          },
+          "R49" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R49"
+          },
+          "R5" : {
+            "color" : "blue",
+            "holds" : 36,
+            "low" : false,
+            "rid" : "FYA2"
+          },
+          "R50" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R50"
+          },
+          "R51" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R51"
+          },
+          "R52" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R52"
+          },
+          "R53" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R53"
+          },
+          "R54" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R54"
+          },
+          "R55" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R55"
+          },
+          "R56" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R56"
+          },
+          "R57" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R57"
+          },
+          "R58" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R58"
+          },
+          "R59" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R59"
+          },
+          "R6" : {
+            "color" : "black",
+            "holds" : 31,
+            "low" : false,
+            "rid" : "FYA3"
+          },
+          "R60" : {
+            "color" : "",
+            "low" : false,
+            "rid" : "R60"
+          },
+          "R7" : {
+            "color" : "purple",
+            "holds" : 31,
+            "low" : false,
+            "rid" : "FYB1"
+          },
+          "R8" : {
+            "color" : "green",
+            "holds" : 33,
+            "low" : false,
+            "rid" : "FYB2"
+          },
+          "R9" : {
+            "color" : "red",
+            "holds" : 33,
+            "low" : false,
+            "rid" : "FYB3"
+          }
+        }
+      }
+    }
+  },
+  "series" : "Youth",
+  "session" : {
+    "leadtr" : {
+      "final" : {
+        "FJR" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1801,
+          "startDay" : "Sat",
+          "startTime" : "16:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYA" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1601,
+          "startDay" : "Sat",
+          "startTime" : "16:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYB" : {
+          "liveAdv" : 1,
+          "liveJudges" : 1,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 1,
+          "liveVideos" : 0,
+          "startBib" : 1401,
+          "startDay" : "Sat",
+          "startTime" : "08:00:00",
+          "status" : "Active",
+          "waves" : ""
+        },
+        "FYC" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1201,
+          "startDay" : "Sat",
+          "startTime" : "12:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "FYD" : {
+          "liveAdv" : 1,
+          "liveJudges" : 1,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 1,
+          "liveVideos" : 0,
+          "startBib" : "1001",
+          "startDay" : "Sat",
+          "startTime" : "08:00:00",
+          "status" : "Active",
+          "waves" : ""
+        },
+        "MJR" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1901,
+          "startDay" : "Sat",
+          "startTime" : "16:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYA" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1701,
+          "startDay" : "Sat",
+          "startTime" : "16:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYB" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1501,
+          "startDay" : "Sat",
+          "startTime" : "12:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYC" : {
+          "liveAdv" : 0,
+          "liveJudges" : 0,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 0,
+          "liveVideos" : 0,
+          "startBib" : 1301,
+          "startDay" : "Sat",
+          "startTime" : "12:00:00",
+          "status" : "Configured",
+          "waves" : ""
+        },
+        "MYD" : {
+          "liveAdv" : 1,
+          "liveJudges" : 1,
+          "liveMaps" : 0,
+          "liveRosters" : 1,
+          "liveScores" : 1,
+          "liveVideos" : 0,
+          "startBib" : 1101,
+          "startDay" : "Sat",
+          "startTime" : "08:00:00",
+          "status" : "Active",
+          "waves" : ""
+        },
+        "advance" : "",
+        "attempts" : "1",
+        "brush" : "",
+        "climbTime" : "4:00",
+        "format" : "Flash",
+        "judgeType" : "Route",
+        "nroutes" : "3",
+        "nwaves" : "",
+        "routeNames" : "Category",
+        "transition" : "0:00",
+        "waves" : {
+          "Wave1" : {
+            "categories" : [ "FYD", "MYD", "FYB" ],
+            "id" : "Session 1",
+            "time" : "8am-11am"
+          },
+          "Wave2" : {
+            "categories" : [ "FYC", "MYC", "MYB" ],
+            "id" : "Session 2",
+            "time" : "12pm-3pm"
+          },
+          "Wave3" : {
+            "categories" : [ "FYA", "FJR", "MYA", "MJR" ],
+            "id" : "Session 3",
+            "time" : "4pm-7pm"
+          }
+        }
+      }
+    }
+  },
+  "sport80Id" : "861",
+  "state" : "MA",
+  "status" : "Approved",
+  "team" : {
+    "eugenemamaccom" : {
+      "email" : "eugene.ma@mac.com",
+      "name" : "Eugene Ma",
+      "phone" : ""
+    },
+    "heathertenggmailcom" : {
+      "email" : "heatherteng@gmail.com",
+      "name" : "Heather Teng",
+      "phone" : ""
+    },
+    "markvastamsncom" : {
+      "email" : "markvasta@msn.com",
+      "name" : "Mark Vasta",
+      "phone" : ""
+    },
+    "shannonl321comcastnet" : {
+      "email" : "shannonl321@comcast.net",
+      "name" : "Shannon Lucia",
+      "phone" : ""
+    }
+  },
+  "zip" : "02368"
+}
+}
