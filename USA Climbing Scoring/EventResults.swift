@@ -45,6 +45,29 @@ struct EventResults: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(event.name)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Menu {
+                    ForEach(self.viewModel.categories, id: \.self) { category in
+                        Button(action: {
+                            self.viewModel.currentCategory = category
+                        }) {
+                            if category == self.viewModel.currentCategory {
+                                Label(category.rawValue, systemImage: "checkmark")
+                            }else {
+                                Text(category.rawValue)
+                            }
+                        }
+                    }
+                } label: {
+                    HStack {
+                        Text(self.viewModel.currentCategory.rawValue)
+                        Image(systemName: "chevron.up.chevron.down")
+                    }
+                }
+
+            }
+        }
     }
 }
 
@@ -79,11 +102,13 @@ struct MedalRow: View {
 
 struct EventResults_Previews: PreviewProvider {
     static var previews: some View {
-        EventResults(event: EventListing(id: "1188",
-                                         categories: Category.allCases,
-                                         dateStart: Date(),
-                                         dateEnd: Date(),
-                                         name: "QE R61 Frontier Climbing and Fitness",
-                                         isLocal: true))
+        NavigationView {
+            EventResults(event: EventListing(id: "1188",
+                                             categories: Category.allCases,
+                                             dateStart: Date(),
+                                             dateEnd: Date(),
+                                             name: "QE R61 Frontier Climbing and Fitness",
+                                             isLocal: true))
+        }
     }
 }

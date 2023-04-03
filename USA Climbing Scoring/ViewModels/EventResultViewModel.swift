@@ -11,6 +11,12 @@ import Combine
 class EventResultViewModel: ObservableObject {
     // The raw rankings
     @Published var rankings: [Ranking] = []
+    @Published var currentCategory: Category = .FJR {
+        didSet {
+            self.calculateScores()
+        }
+    }
+    @Published var categories: [Category] = []
     
     // What place the competitor is in
     var places: [Double : Int] = [:]
@@ -34,6 +40,10 @@ class EventResultViewModel: ObservableObject {
                                                          self.routeCardViewModel.$routeCards)
             .receive(on: DispatchQueue.main)
             .sink(receiveValue: { config, roster, routeCards in
+                if let config, self.categories.isEmpty, !config.categories.isEmpty {
+                    self.categories = config.categories
+                }
+                
                 if config != nil, roster.isEmpty == false, routeCards.count > 0 {
                     self.calculateScores()
                 }
@@ -54,12 +64,11 @@ class EventResultViewModel: ObservableObject {
             return
         }
         
-        // Right now we are going to just focus on scoring FYC.
         let roster = self.rosterViewModel.roster
         let routeCards = self.routeCardViewModel.routeCards
         
-        // Get the roster for FYC
-        guard let competitors = roster[.FYC] else {
+        // Get the roster for the current selected item
+        guard let competitors = roster[self.currentCategory] else {
             return
         }
         
