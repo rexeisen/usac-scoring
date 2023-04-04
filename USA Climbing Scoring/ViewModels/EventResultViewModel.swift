@@ -75,7 +75,7 @@ class EventResultViewModel: ObservableObject {
         // Get the routeCards for those members
         let competitorIDs = competitors.map({ $0.id })
         let filteredRouteCards = routeCards.filter { card in
-            competitorIDs.contains(card.climberId) && card.bestAttempt != nil
+            return competitorIDs.contains(card.climberId) && card.bestAttempt != nil
         }
         
         // Setup the initial set of Rankings to be modified later
@@ -181,8 +181,34 @@ class EventResultViewModel: ObservableObject {
     }
 }
 
-struct Ranking: Hashable, Identifiable, Comparable {
-    static func < (lhs: Ranking, rhs: Ranking) -> Bool { lhs.score < rhs.score }
+struct Ranking: Hashable, Identifiable, Comparable, CustomStringConvertible {
+    var description: String {
+        if routeCards.isEmpty {
+            if let firstDate = competitor.firstTime {
+                return firstDate.formatted(date: .omitted, time: .shortened)
+            } else {
+                return "error"
+            }
+        } else {
+            return score.formatted(.number.precision(.fractionLength(2)))
+        }
+    }
+    
+    static func < (lhs: Ranking, rhs: Ranking) -> Bool {
+        switch (lhs.routeCards.isEmpty, rhs.routeCards.isEmpty) {
+        case (false, false):
+            return lhs.score < rhs.score
+        case (true, false):
+            return false
+        case (false, true):
+            return true
+        case (true, true):
+            guard let lhsFirst = lhs.competitor.firstTime, let rhsFirst = rhs.competitor.firstTime else {
+                return true
+            }
+            return lhsFirst < rhsFirst
+        }
+    }
     
     var id: String { competition + "-" + competitor.id }
     var competition: String

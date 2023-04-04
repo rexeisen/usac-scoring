@@ -22,12 +22,14 @@ class EventListingViewModel: ObservableObject {
                          categories: Category.allCases,
                          dateStart: Date(),
                          dateEnd: Date(),
-                         name: "QE R92 CRG Randolph"),
+                         name: "QE R92 CRG Randolph",
+                         isLocal: true),
             EventListing(id: "1188",
                          categories: Category.allCases,
                          dateStart: Date(),
                          dateEnd: Date(),
-                         name: "QE R61 Frontier Climbing and Fitness")
+                         name: "QE R61 Frontier Climbing and Fitness",
+                         isLocal: true)
         ]
     }
 }

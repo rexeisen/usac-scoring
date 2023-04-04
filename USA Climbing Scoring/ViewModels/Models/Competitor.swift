@@ -16,6 +16,24 @@ struct Competitor: Codable, Identifiable, Equatable {
         case bib
         case name
         case scratch
+        case final
+    }
+    
+    
+    private enum EventCodingKeys: String, CodingKey {
+        /*
+         "advance" : 0,
+         "npts" : "",
+         "pts" : "",
+         "rank" : "",
+         "score" : "",
+         "so" : [ null, 28, 42, 14 ],
+         "st" : [ null, "09:48:00", "10:44:00", "08:52:00" ],
+         "start" : "",
+         "wave" : ""
+         */
+        case so
+        case st
     }
     
     var id: String
@@ -26,6 +44,11 @@ struct Competitor: Codable, Identifiable, Equatable {
     let bib: Int?
     let name: String
     let scratch: Bool
+    // This is the routeId with the date
+    let startTimes: [String : Date]
+    var firstTime: Date? {
+        return startTimes.values.sorted().first
+    }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -38,7 +61,39 @@ struct Competitor: Codable, Identifiable, Equatable {
         
         self.scratch = (try? container.decode(Bool.self, forKey: .scratch)) ?? false
         
+        if let finalContainer = try? container.nestedContainer(keyedBy: EventCodingKeys.self, forKey: .final), let so = try? finalContainer.decode([Int?].self, forKey: .so) {
+            let st = try finalContainer.decode([String?].self, forKey: .st)
+            
+            guard so.count == st.count else {
+                startTimes = [:]
+                return
+            }
+            
+            let zipped = zip(so, st)
+            var mappedItems: [String : Date] = [:]
+
+            
+            for (routeId, startTime) in zipped {
+                guard let routeId, let startTime else { continue }
+                let dateFormatter = DateFormatter()
+                dateFormatter.locale = Locale(identifier: "en_US_POSIX") // set locale to reliable US_POSIX
+                dateFormatter.dateFormat = "HH:mm:ss"
+                guard let formattedDate = dateFormatter.date(from: startTime) else {
+                    continue
+                }
+                
+                mappedItems[String(routeId)] = formattedDate
+            }
+            
+            
+            startTimes = mappedItems
+        } else {
+            startTimes = [:]
+        }
+        
     }
+    
+    func encode(to encoder: Encoder) throws { }
     
     static func == (lhs: Self, rhs: Self) -> Bool {
         return lhs.id == rhs.id

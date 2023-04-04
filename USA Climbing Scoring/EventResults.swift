@@ -33,7 +33,7 @@ struct EventResults: View {
                             Text("\(self.viewModel.places[ranking.score] ?? 0)")
                             Text(ranking.competitor.name)
                             Spacer()
-                            Text(ranking.score.formatted(.number.precision(.fractionLength(2))))
+                            Text(ranking.description)
                                 .monospacedDigit()
                         }
                     }
@@ -93,7 +93,7 @@ struct MedalRow: View {
             Text(ranking.competitor.name)
                 .fontWeight(.semibold)
             Spacer()
-            Text(ranking.score.formatted(.number.precision(.fractionLength(2))))
+            Text(ranking.description)
                 .monospacedDigit()
         }
     }
@@ -103,7 +103,7 @@ struct MedalRow: View {
 struct EventResults_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            EventResults(event: EventListing(id: "1188",
+            EventResults(event: EventListing(id: "1196",
                                              categories: Category.allCases,
                                              dateStart: Date(),
                                              dateEnd: Date(),
