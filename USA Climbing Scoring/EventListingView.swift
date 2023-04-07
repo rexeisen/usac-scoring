@@ -22,6 +22,8 @@ struct EventListingView: View {
                     }
                 }
             }
+            .toolbarBackground(.visible, for: .navigationBar)
+            .toolbarBackground(Color(uiColor: .systemBackground), for: .navigationBar)
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("Events")
         }

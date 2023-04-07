@@ -32,7 +32,7 @@ class RouteCardEventStore: EventHandler {
                 let topLevel = try decoder.decode(RouteCardResponse.self, from: data)
                 _routePublisher.send(topLevel.routeCards)
             } catch {
-                print(error)
+                fatalError(error.localizedDescription)
             }
         }
     }

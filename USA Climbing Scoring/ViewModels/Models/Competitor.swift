@@ -16,6 +16,9 @@ struct Competitor: Codable, Identifiable, Equatable {
         case bib
         case name
         case scratch
+    }
+    
+    enum RoundKeys: String, CodingKey {
         case final
     }
     
@@ -61,7 +64,9 @@ struct Competitor: Codable, Identifiable, Equatable {
         
         self.scratch = (try? container.decode(Bool.self, forKey: .scratch)) ?? false
         
-        if let finalContainer = try? container.nestedContainer(keyedBy: EventCodingKeys.self, forKey: .final), let so = try? finalContainer.decode([Int?].self, forKey: .so) {
+        let roundContainer = try decoder.container(keyedBy: RoundKeys.self)
+        
+        if let finalContainer = try? roundContainer.nestedContainer(keyedBy: EventCodingKeys.self, forKey: .final), let so = try? finalContainer.decode([Int?].self, forKey: .so) {
             let st = try finalContainer.decode([String?].self, forKey: .st)
             
             guard so.count == st.count else {
@@ -92,8 +97,6 @@ struct Competitor: Codable, Identifiable, Equatable {
         }
         
     }
-    
-    func encode(to encoder: Encoder) throws { }
     
     static func == (lhs: Self, rhs: Self) -> Bool {
         return lhs.id == rhs.id
