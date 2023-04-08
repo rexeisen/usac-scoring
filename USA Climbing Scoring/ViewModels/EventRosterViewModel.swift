@@ -50,4 +50,8 @@ class EventRosterViewModel: ObservableObject {
             self.eventSource.start()
         }
     }
+    
+    func writeToFile() {
+        self.handler.writeMessagesToFile()
+    }
 }

@@ -50,4 +50,8 @@ class RouteCardViewModel: ObservableObject {
             self.eventSource.start()
         }
     }
+    
+    func writeToFile() {
+        self.handler.writeMessagesToFile()
+    }
 }

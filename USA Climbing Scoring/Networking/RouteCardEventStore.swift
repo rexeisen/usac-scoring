@@ -14,6 +14,7 @@ class RouteCardEventStore: EventHandler {
         return _routePublisher.eraseToAnyPublisher()
     }()
     private let _routePublisher: PassthroughSubject<[RouteCard], Never> = PassthroughSubject()
+    private var messages: [String] = []
     
     func onOpened() {
         debugPrint("onOpened")
@@ -25,6 +26,7 @@ class RouteCardEventStore: EventHandler {
     
     func onMessage(eventType: String, messageEvent: LDSwiftEventSource.MessageEvent) {
         if eventType == "put" {
+            messages.append(messageEvent.data)
             // Could be the initial data set (need to test with live data)
             guard let data = messageEvent.data.data(using: .utf8) else { return }
             let decoder = JSONDecoder()
@@ -43,6 +45,16 @@ class RouteCardEventStore: EventHandler {
     
     func onError(error: Error) {
         debugPrint("Error: \(error)")
+    }
+    
+    func writeMessagesToFile() {
+        let routeCardsItem: String = "routeCardMessages.txt"
+        let stringToWrite = messages.joined(separator: "\n:\n")
+        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        let documentsDirectory = paths[0]
+        let pathC: URL = documentsDirectory.appending(path: routeCardsItem)
+        print("!!! WROTE TO \(pathC)")
+        try? stringToWrite.write(to: pathC, atomically: true, encoding: .utf8)
     }
     
 }

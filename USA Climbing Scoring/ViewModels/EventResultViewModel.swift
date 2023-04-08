@@ -179,6 +179,12 @@ class EventResultViewModel: ObservableObject {
         self.places = places
         self.rankings = sortedRankings
     }
+    
+    func writeMessages() {
+        self.routeCardViewModel.writeToFile()
+        self.configurationViewModel.writeToFile()
+        self.rosterViewModel.writeToFile()
+    }
 }
 
 struct Ranking: Hashable, Identifiable, Comparable, CustomStringConvertible {

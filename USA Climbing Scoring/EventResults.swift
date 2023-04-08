@@ -20,6 +20,11 @@ struct EventResults: View {
     
     var body: some View {
         List {
+            Button(action: {
+                self.viewModel.writeMessages()
+            }) {
+                Text("Write to file")
+            }
             ForEach(self.viewModel.rankings, id: \.self) { ranking in
                 
                 if (1...3).contains(self.viewModel.places[ranking.score] ?? 0) {
