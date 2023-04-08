@@ -44,6 +44,25 @@ struct RouteCardFinal: Codable {
     let final: [String: [String : RouteCard]]
 }
 
+enum RouteCardValue: Hashable, Comparable {
+    case bestAttempt(Double)
+    case startTime(Date)
+    
+    static func < (lhs: RouteCardValue, rhs: RouteCardValue) -> Bool {
+        switch (lhs, rhs) {
+        case (.bestAttempt(let lhsValue), .bestAttempt(let rhsValue)):
+            return lhsValue < rhsValue
+        case (.bestAttempt(_), .startTime(_)):
+            return false
+            
+        case (.startTime(_), .bestAttempt(_)):
+            return true
+        case (.startTime(let lhsStart), .startTime(let rhsStart)):
+            return lhsStart < rhsStart
+        }
+    }
+}
+
 struct RouteCard: Codable, Hashable, Comparable {
     private enum CodingKeys: String, CodingKey {
         case attempts
@@ -54,6 +73,16 @@ struct RouteCard: Codable, Hashable, Comparable {
     let attempts: [Attempt]
     let climberId: String
     let routeId: String
+    var startTime: Date?
+    var value: RouteCardValue {
+        if let bestAttempt = self.bestAttempt {
+            return .bestAttempt(bestAttempt.value)
+        } else if let startTime = self.startTime {
+            return .startTime(startTime)
+        } else {
+            return .startTime(Date.distantFuture)
+        }
+    }
     
     var bestAttempt: Attempt? {
         return attempts.sorted(by: >).first
@@ -79,16 +108,7 @@ struct RouteCard: Codable, Hashable, Comparable {
     // MARK: Protocol Conformance
     
     static func < (lhs: RouteCard, rhs: RouteCard) -> Bool {
-        switch (lhs.bestAttempt, rhs.bestAttempt) {
-        case (.none, .some(_)):
-            return true
-        case (.some(_), .none):
-            return false
-        case (.some(let lhsBest), .some(let rhsBest)):
-            return lhsBest < rhsBest
-        case (.none, .none):
-            return lhs.climberId < rhs.climberId
-        }
+        return lhs.value < rhs.value
     }
     
     func hash(into hasher: inout Hasher) {

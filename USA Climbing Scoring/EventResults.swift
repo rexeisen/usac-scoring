@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct EventResults: View {
-    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass: UserInterfaceSizeClass?
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
     
     var event: EventListing
     @ObservedObject var viewModel: EventResultViewModel
@@ -20,27 +21,39 @@ struct EventResults: View {
     
     var body: some View {
         List {
-            Button(action: {
-                self.viewModel.writeMessages()
-            }) {
-                Text("Write to file")
-            }
-            ForEach(self.viewModel.rankings, id: \.self) { ranking in
-                
-                if (1...3).contains(self.viewModel.places[ranking.score] ?? 0) {
-                    MedalRow(place: self.viewModel.places[ranking.score] ?? 0, ranking: ranking)
-                } else {
-                    if ranking.competitor.scratch {
-                        Text(ranking.competitor.name)
-                            .strikethrough()
+            if verticalSizeClass == .regular && horizontalSizeClass == .compact {
+                ForEach(self.viewModel.rankings, id: \.self) { ranking in
+                    
+                    if (1...3).contains(self.viewModel.places[ranking.score] ?? 0) {
+                        MedalRow(place: self.viewModel.places[ranking.score] ?? 0, ranking: ranking)
                     } else {
-                        HStack {
-                            Text("\(self.viewModel.places[ranking.score] ?? 0)")
+                        if ranking.competitor.scratch {
                             Text(ranking.competitor.name)
-                            Spacer()
-                            Text(ranking.description)
-                                .monospacedDigit()
+                                .strikethrough()
+                        } else {
+                            HStack {
+                                Text("\(self.viewModel.places[ranking.score] ?? 0)")
+                                Text(ranking.competitor.name)
+                                Spacer()
+                                Text(ranking.description)
+                                    .monospacedDigit()
+                            }
                         }
+                    }
+                }
+            } else {
+                Grid {
+                    GridRow {
+                        Text("Row 1")
+                        ForEach(0..<2) { _ in Color.red }
+                    }
+                    GridRow {
+                        Text("Row 2")
+                        ForEach(0..<5) { _ in Color.green }
+                    }
+                    GridRow {
+                        Text("Row 3")
+                        ForEach(0..<4) { _ in Color.blue }
                     }
                 }
             }

@@ -18,7 +18,8 @@ class EventResultViewModel: ObservableObject {
     }
     @Published var categories: [Category] = []
     
-    // What place the competitor is in
+    // What place the competitor is in.
+    // Double is the competitor score, Int is the place
     var places: [Double : Int] = [:]
     
     private let routeCardViewModel: RouteCardViewModel
@@ -74,9 +75,21 @@ class EventResultViewModel: ObservableObject {
         
         // Get the routeCards for those members
         let competitorIDs = competitors.map({ $0.id })
-        let filteredRouteCards = routeCards.filter { card in
-            return competitorIDs.contains(card.climberId) && card.bestAttempt != nil
+        var filteredRouteCards = routeCards.filter { card in
+            return competitorIDs.contains(card.climberId)
         }
+        
+        // For the route cards, we need to set all the start times
+        var completedRoutedCards: Set<RouteCard> = []
+        for filteredRouteCard in filteredRouteCards {
+            var mutatedCard = filteredRouteCard
+            if let foundClimber = competitors.first(where: {$0.id == filteredRouteCard.climberId}),
+               let startTime = foundClimber.startTimes[filteredRouteCard.routeId] {
+                mutatedCard.startTime = startTime
+            }
+            completedRoutedCards.insert(mutatedCard)
+        }
+        filteredRouteCards = completedRoutedCards
         
         // Setup the initial set of Rankings to be modified later
         var rankings: Set<Ranking> = []
@@ -93,73 +106,30 @@ class EventResultViewModel: ObservableObject {
         
         // Sort the route cards by value
         for (route, routeCards) in grouped {
-            let sortedRouteCards = routeCards.sorted(by: >)
+            let binned: [RouteCardValue : [RouteCard]] = Dictionary(grouping: routeCards) { $0.value }
+            let binSortOrder = binned.keys.sorted(by: >)
             
-            var previousScoreSentinel: Double = -1.0
-            // Contains the competitors getting the calculated
-            var scoringCollection: [String] = []
-            
-            // Figure out where they started
             var tieStartIndex: Int = 1
-                        
-            for (index, routeCard) in sortedRouteCards.enumerated() {
-                guard let bestAttempt = routeCard.bestAttempt else { continue }
-                if previousScoreSentinel == -1.0 {
-                    previousScoreSentinel = bestAttempt.value
+            for order in binSortOrder {
+                guard let cards = binned[order] else {
+                    fatalError("Could not find this card.")
                 }
+                let allScores = Array(tieStartIndex..<tieStartIndex + cards.count)
+                let totalPlaces = allScores.reduce(0,+)
+                let score = Double(totalPlaces) / Double(allScores.count)
                 
-                if previousScoreSentinel != bestAttempt.value {
-                    // Set all the previous scores
-                    let allScores = Array(tieStartIndex..<index + 1)
-                    if allScores.count != scoringCollection.count {
-                        debugPrint("THERE IS A SERIOUS MISCOUNT PROBLEM HERE")
+                // Update all the climbers
+                for routeCard in cards {
+                    guard var currentRanking = rankings.first(where: { $0.competitor.id == routeCard.climberId} ) else {
+                        fatalError("UNABLE TO FIND THE CLIMBER")
+                        continue
                     }
                     
-                    let totalPlaces = allScores.reduce(0,+)
-                    let score = Double(totalPlaces) / Double(allScores.count)
-                    
-                    // Update all the climbers
-                    for climberId in scoringCollection {
-                        guard var currentRanking = rankings.first(where: { $0.competitor.id == climberId} ) else {
-                            debugPrint("UNABLE TO FIND THE CLIMBER")
-                            continue
-                        }
-                        
-                        currentRanking.place[route] = score
-                        currentRanking.updateScore()
-                        rankings.update(with: currentRanking)
-                    }
-                    
-                    // Now all the climbers have their score. Reset the caches
-                    previousScoreSentinel = bestAttempt.value
-                    scoringCollection = [routeCard.climberId]
-                    tieStartIndex = index + 1
-                    
-                } else {
-                    // Add this competitor to the tie list
-                    scoringCollection.append(routeCard.climberId)
+                    currentRanking.place[route] = score
+                    currentRanking.updateScore()
+                    rankings.update(with: currentRanking)
                 }
-                
-            }
-            
-            let allScores = Array(tieStartIndex..<sortedRouteCards.count + 1)
-            if allScores.count != scoringCollection.count {
-                debugPrint("THERE IS A SERIOUS MISCOUNT PROBLEM HERE")
-            }
-            
-            let totalPlaces = allScores.reduce(0,+)
-            let score = Double(totalPlaces) / Double(allScores.count)
-            
-            // Update all the climbers
-            for climberId in scoringCollection {
-                guard var currentRanking = rankings.first(where: { $0.competitor.id == climberId} ) else {
-                    debugPrint("UNABLE TO FIND THE CLIMBER")
-                    continue
-                }
-                
-                currentRanking.place[route] = score
-                currentRanking.updateScore()
-                rankings.update(with: currentRanking)
+                tieStartIndex = tieStartIndex + cards.count
             }
         }
 
