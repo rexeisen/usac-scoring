@@ -73,9 +73,23 @@ class EventResultViewModel: ObservableObject {
             return
         }
         
+        var allRouteCards: Set<RouteCard> = []
+        if let routesPerCategory = config.routes[self.currentCategory] {
+            for competitor in competitors {
+                for competitorRoute in routesPerCategory {
+                    let blankCard = RouteCard(climberId: competitor.id, routeId: "R\(competitorRoute)")
+                    allRouteCards.insert(blankCard)
+                }
+            }
+        }
+        
+        for routeCard in routeCards {
+            allRouteCards.update(with: routeCard)
+        }
+        
         // Get the routeCards for those members
         let competitorIDs = competitors.map({ $0.id })
-        var filteredRouteCards = routeCards.filter { card in
+        var filteredRouteCards = allRouteCards.filter { card in
             return competitorIDs.contains(card.climberId)
         }
         

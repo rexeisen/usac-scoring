@@ -88,6 +88,13 @@ struct RouteCard: Codable, Hashable, Comparable {
         return attempts.sorted(by: >).first
     }
     
+    init(climberId: String, routeId: String) {
+        self.climberId = climberId
+        self.routeId = routeId
+        self.attempts = []
+        self.startTime = nil
+    }
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)        
         
