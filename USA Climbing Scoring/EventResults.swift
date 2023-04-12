@@ -48,11 +48,15 @@ struct EventResults: View {
                         GridRow {
                             Text("Place")
                             Text("Name")
+                                .gridColumnAlignment(.leading)
                             Text("Score")
+                            ForEach(self.viewModel.routes, id: \.self) { routeName in
+                                Text(routeName)
+                            }
                         }
                         Divider()
                         
-                        ForEach(self.viewModel.rankings, id: \.self) { ranking in
+                        ForEach(self.viewModel.rankings, id: \.self) { (ranking: Ranking) in
                             GridRow {
                                 if ranking.competitor.scratch {
                                     Spacer()
@@ -64,6 +68,12 @@ struct EventResults: View {
                                     Text(ranking.competitor.name)
                                     Text(ranking.description)
                                         .monospacedDigit()
+                                    ForEach(self.viewModel.routes, id: \.self) { routeName in
+                                        Text("\(ranking.routeCards.first(where: {$0.routeId == routeName})?.bestAttempt?.score ?? "0") \(ranking.place[routeName]?.formatted(.number.precision(.fractionLength(2))) ?? "0")")
+                                    }
+//                                    ForEach(ranking.place.sorted(by: >), id: \.key) { key, value in
+//                                        Text(value.value.formatted(.number.precision(.fractionLength(2))))
+//                                    }
                                 }
                             }
                         }

@@ -122,6 +122,10 @@ struct RouteCard: Codable, Hashable, Comparable {
         hasher.combine(self.climberId)
         hasher.combine(self.routeId)
     }
+    
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.climberId == rhs.climberId && lhs.routeId == rhs.routeId
+    }
 }
 
 struct Attempt: Codable, Hashable, Comparable {

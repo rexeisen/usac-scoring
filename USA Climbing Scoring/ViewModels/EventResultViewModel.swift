@@ -21,6 +21,7 @@ class EventResultViewModel: ObservableObject {
     // What place the competitor is in.
     // Double is the competitor score, Int is the place
     var places: [Double : Int] = [:]
+    var routes: [String] = []
     
     private let routeCardViewModel: RouteCardViewModel
     private let configurationViewModel: EventConfigViewModel
@@ -74,14 +75,18 @@ class EventResultViewModel: ObservableObject {
         }
         
         var allRouteCards: Set<RouteCard> = []
+        self.routes = []
         if let routesPerCategory = config.routes[self.currentCategory] {
-            for competitor in competitors {
-                for competitorRoute in routesPerCategory {
-                    let blankCard = RouteCard(climberId: competitor.id, routeId: "R\(competitorRoute)")
+            for competitorRoute in routesPerCategory {
+                let routeName = "R\(competitorRoute)"
+                self.routes.append(routeName)
+                for competitor in competitors {
+                    let blankCard = RouteCard(climberId: competitor.id, routeId: routeName)
                     allRouteCards.insert(blankCard)
                 }
             }
         }
+        self.routes.sort()
         
         for routeCard in routeCards {
             allRouteCards.update(with: routeCard)
