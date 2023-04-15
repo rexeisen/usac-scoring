@@ -48,9 +48,10 @@ struct Competitor: Codable, Identifiable, Equatable {
     let name: String
     let scratch: Bool
     // This is the routeId with the date
-    let startTimes: [String : Date]
+    let startTimes: [Date]
+    let startOrder: [Int]
     var firstTime: Date? {
-        return startTimes.values.sorted().first
+        return startTimes.sorted().first
     }
     
     init(from decoder: Decoder) throws {
@@ -70,16 +71,16 @@ struct Competitor: Codable, Identifiable, Equatable {
             let st = try finalContainer.decode([String?].self, forKey: .st)
             
             guard so.count == st.count else {
-                startTimes = [:]
+                startTimes = []
+                startOrder = []
                 return
             }
             
-            let zipped = zip(so, st)
-            var mappedItems: [String : Date] = [:]
+            var mappedItems: [Date] = []
 
             
-            for (routeId, startTime) in zipped {
-                guard let routeId, let startTime else { continue }
+            for startTime in st {
+                guard let startTime else { continue }
                 let dateFormatter = DateFormatter()
                 dateFormatter.locale = Locale(identifier: "en_US_POSIX") // set locale to reliable US_POSIX
                 dateFormatter.dateFormat = "HH:mm:ss"
@@ -87,13 +88,14 @@ struct Competitor: Codable, Identifiable, Equatable {
                     continue
                 }
                 
-                mappedItems[String(routeId)] = formattedDate
+                mappedItems.append(formattedDate)
             }
             
-            
             startTimes = mappedItems
+            startOrder = so.compactMap({$0})
         } else {
-            startTimes = [:]
+            startTimes = []
+            startOrder = []
         }
         
     }

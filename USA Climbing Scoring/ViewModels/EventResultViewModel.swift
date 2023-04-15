@@ -86,7 +86,6 @@ class EventResultViewModel: ObservableObject {
                 }
             }
         }
-        self.routes.sort()
         
         for routeCard in routeCards {
             allRouteCards.update(with: routeCard)
@@ -97,14 +96,22 @@ class EventResultViewModel: ObservableObject {
         var filteredRouteCards = allRouteCards.filter { card in
             return competitorIDs.contains(card.climberId)
         }
-        
+                
         // For the route cards, we need to set all the start times
         var completedRoutedCards: Set<RouteCard> = []
         for filteredRouteCard in filteredRouteCards {
             var mutatedCard = filteredRouteCard
-            if let foundClimber = competitors.first(where: {$0.id == filteredRouteCard.climberId}),
-               let startTime = foundClimber.startTimes[filteredRouteCard.routeId] {
+            guard let foundClimber = competitors.first(where: {$0.id == filteredRouteCard.climberId}) else {
+                print("UNABLE TO FIND CLIMBER")
+                continue
+            }
+            
+            if let indexOfClimb = self.routes.firstIndex(of: filteredRouteCard.routeId),
+               indexOfClimb < foundClimber.startTimes.count {
+                let startTime = foundClimber.startTimes[indexOfClimb]
                 mutatedCard.startTime = startTime
+            } else {
+                print("NO START TIME")
             }
             completedRoutedCards.insert(mutatedCard)
         }
@@ -178,7 +185,7 @@ class EventResultViewModel: ObservableObject {
 
 struct Ranking: Hashable, Identifiable, Comparable, CustomStringConvertible {
     var description: String {
-        if routeCards.isEmpty {
+        if !self.hasMadeAnAttempt() {
             if let firstDate = competitor.firstTime {
                 return firstDate.formatted(date: .omitted, time: .shortened)
             } else {
@@ -190,14 +197,14 @@ struct Ranking: Hashable, Identifiable, Comparable, CustomStringConvertible {
     }
     
     static func < (lhs: Ranking, rhs: Ranking) -> Bool {
-        switch (lhs.routeCards.isEmpty, rhs.routeCards.isEmpty) {
-        case (false, false):
+        switch (lhs.hasMadeAnAttempt(), rhs.hasMadeAnAttempt()) {
+        case (true, true):
             return lhs.score < rhs.score
         case (true, false):
-            return false
-        case (false, true):
             return true
-        case (true, true):
+        case (false, true):
+            return false
+        case (false, false):
             guard let lhsFirst = lhs.competitor.firstTime, let rhsFirst = rhs.competitor.firstTime else {
                 return true
             }
@@ -226,4 +233,13 @@ struct Ranking: Hashable, Identifiable, Comparable, CustomStringConvertible {
         return lhs.id == rhs.id
     }
     
+    func hasMadeAnAttempt() -> Bool {
+        for routeCard in routeCards {
+            if !routeCard.attempts.isEmpty {
+                return true
+            }
+        }
+        
+        return false
+    }
 }
