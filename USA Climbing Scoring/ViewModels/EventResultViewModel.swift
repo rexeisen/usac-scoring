@@ -110,6 +110,8 @@ class EventResultViewModel: ObservableObject {
                indexOfClimb < foundClimber.startTimes.count {
                 let startTime = foundClimber.startTimes[indexOfClimb]
                 mutatedCard.startTime = startTime
+            } else if let configStart = config.dateStart {
+                mutatedCard.startTime = configStart
             } else {
                 print("NO START TIME")
             }

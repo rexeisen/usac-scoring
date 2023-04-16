@@ -18,10 +18,13 @@ struct EventConfiguration: Identifiable, Codable {
         case city
         case state
         case zip
-//        case dateStart
-//        case dateEnd
         case timezone
         case routes
+    }
+    
+    enum MaybeCodingKeys: String, CodingKey {
+        case dateStart
+        case dateEnd
     }
     
     var id: String
@@ -40,8 +43,8 @@ struct EventConfiguration: Identifiable, Codable {
     let zip: String
     
     // MARK: - Timing Information
-//    let dateStart: Date
-//    let dateEnd: Date
+    let dateStart: Date?
+    let dateEnd: Date?
     let timezone: String?
     
     let routes: [Category: [String]]
@@ -53,8 +56,31 @@ struct EventConfiguration: Identifiable, Codable {
         self.city = try container.decode(String.self, forKey: .city)
         self.state = try container.decode(String.self, forKey: .state)
         self.zip = try container.decode(String.self, forKey: .zip)
-//        self.dateStart = try container.decode(Date.self, forKey: .dateStart)
-//        self.dateEnd = try container.decode(Date.self, forKey: .dateEnd)
+        
+        if let maybeContainer = try? decoder.container(keyedBy: MaybeCodingKeys.self),
+            let dateStartString = try? maybeContainer.decode(String.self, forKey: .dateStart),
+           let dateEndString = try? maybeContainer.decode(String.self, forKey: .dateEnd)
+        {
+            let dateFormatter = DateFormatter()
+            dateFormatter.locale = Locale(identifier: "en_US_POSIX") // set locale to reliable US_POSIX
+            dateFormatter.dateFormat = "yyyy/MM/dd"
+            
+            if let castStart = dateFormatter.date(from: dateStartString) {
+                self.dateStart = castStart
+            } else {
+                self.dateStart = nil
+            }
+            
+            if let castEnd = dateFormatter.date(from: dateEndString) {
+                self.dateEnd = castEnd
+            } else {
+                self.dateEnd = nil
+            }
+        } else {
+            self.dateStart = nil
+            self.dateEnd = nil
+        }
+        
         
         if let timezone = try? container.decode(String.self, forKey: .timezone) {
             self.timezone = timezone
